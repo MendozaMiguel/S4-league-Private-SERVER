@@ -1,0 +1,1295 @@
+2020-06-12 20:30:25.217 +02:00 [Information] Initializing...
+2020-06-12 20:30:25.263 +02:00 [Information] Initializing...
+2020-06-12 20:30:25.940 +02:00 [Information] Initializing...
+2020-06-12 20:30:26.401 +02:00 [Debug] Caching...
+2020-06-12 20:30:26.449 +02:00 [Information] NoobMode: Filling the shop with items
+2020-06-12 20:30:26.502 +02:00 [Error] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'Name' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.Insert(IDbConnection connection, TEntity entity, AggregatedSqlStatementOptions`1 statementOptions)
+   at Netsphere.Program.FillShop()
+   at Netsphere.Program.Main()
+2020-06-12 20:39:39.841 +02:00 [Information] Initializing...
+2020-06-12 20:39:39.890 +02:00 [Information] Initializing...
+2020-06-12 20:39:40.604 +02:00 [Information] Initializing...
+2020-06-12 20:39:41.089 +02:00 [Debug] Caching...
+2020-06-12 20:39:41.137 +02:00 [Information] NoobMode: Filling the shop with items
+2020-06-12 20:39:41.188 +02:00 [Error] UnhandledException
+MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'Name' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.FastCrud.SqlStatements.GenericSqlStatements`1.Insert(IDbConnection connection, TEntity entity, AggregatedSqlStatementOptions`1 statementOptions)
+   at Netsphere.Program.FillShop()
+   at Netsphere.Program.Main()
+2020-06-12 20:47:52.672 +02:00 [Information] Initializing...
+2020-06-12 20:47:52.719 +02:00 [Information] Initializing...
+2020-06-12 20:47:53.557 +02:00 [Information] Initializing...
+2020-06-12 20:47:54.163 +02:00 [Debug] Caching...
+2020-06-12 20:47:54.285 +02:00 [Information] NoobMode: Filling the shop with items
+2020-06-12 20:47:54.323 +02:00 [Debug] Caching...
+2020-06-12 20:47:54.940 +02:00 [Warning] Missing english translation for "N1000032"
+2020-06-12 20:47:54.948 +02:00 [Warning] Missing english translation for "N1000032"
+2020-06-12 20:47:54.950 +02:00 [Warning] Missing english translation for "N1000031"
+2020-06-12 20:47:54.952 +02:00 [Warning] Missing english translation for "N1000030"
+2020-06-12 20:47:54.953 +02:00 [Warning] Missing english translation for "N1000027"
+2020-06-12 20:47:54.956 +02:00 [Warning] Missing english translation for "N1011002"
+2020-06-12 20:47:54.957 +02:00 [Warning] Missing english translation for "N1011001"
+2020-06-12 20:47:54.958 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 20:47:54.961 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 20:47:54.962 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 20:47:54.963 +02:00 [Warning] Missing english translation for "N1010031"
+2020-06-12 20:47:54.966 +02:00 [Warning] Missing english translation for "N1021018"
+2020-06-12 20:47:54.967 +02:00 [Warning] Missing english translation for "N1021017"
+2020-06-12 20:47:54.973 +02:00 [Warning] Missing english translation for "N1020067"
+2020-06-12 20:47:54.974 +02:00 [Warning] Missing english translation for "N1020066"
+2020-06-12 20:47:54.976 +02:00 [Warning] Missing english translation for "1020065"
+2020-06-12 20:47:54.977 +02:00 [Warning] Missing english translation for "N1020064"
+2020-06-12 20:47:54.978 +02:00 [Warning] Missing english translation for "N1020061"
+2020-06-12 20:47:54.984 +02:00 [Warning] Missing english translation for "N1031018"
+2020-06-12 20:47:54.986 +02:00 [Warning] Missing english translation for "N1031017"
+2020-06-12 20:47:54.991 +02:00 [Warning] Missing english translation for "N1030063"
+2020-06-12 20:47:54.993 +02:00 [Warning] Missing english translation for "N1030063"
+2020-06-12 20:47:54.994 +02:00 [Warning] Missing english translation for "N1030062"
+2020-06-12 20:47:54.996 +02:00 [Warning] Missing english translation for "N1030059"
+2020-06-12 20:47:55.001 +02:00 [Warning] Missing english translation for "N1041018"
+2020-06-12 20:47:55.003 +02:00 [Warning] Missing english translation for "N1041017"
+2020-06-12 20:47:55.009 +02:00 [Warning] Missing english translation for "N1040056"
+2020-06-12 20:47:55.010 +02:00 [Warning] Missing english translation for "N1040055"
+2020-06-12 20:47:55.017 +02:00 [Warning] Missing english translation for "N1051018"
+2020-06-12 20:47:55.019 +02:00 [Warning] Missing english translation for "N1051017"
+2020-06-12 20:47:55.024 +02:00 [Warning] Missing english translation for "N1050056"
+2020-06-12 20:47:55.026 +02:00 [Warning] Missing english translation for "N1050056"
+2020-06-12 20:47:55.028 +02:00 [Warning] Missing english translation for "N1050054"
+2020-06-12 20:47:55.035 +02:00 [Warning] Missing english translation for "N1061017"
+2020-06-12 20:47:55.042 +02:00 [Warning] Missing english translation for "N1060066"
+2020-06-12 20:47:55.048 +02:00 [Warning] Missing english translation for "N1060051"
+2020-06-12 20:47:55.070 +02:00 [Warning] Missing english translation for "1060000"
+2020-06-12 20:47:55.099 +02:00 [Warning] Missing english translation for "N2010018"
+2020-06-12 20:47:55.101 +02:00 [Warning] Missing english translation for "N2010019"
+2020-06-12 20:47:55.127 +02:00 [Warning] Missing weapon for item "2030005"
+2020-06-12 20:47:55.132 +02:00 [Warning] Missing english translation for "N2030005"
+2020-06-12 20:47:55.134 +02:00 [Warning] Missing weapon for item "2030006"
+2020-06-12 20:47:55.136 +02:00 [Warning] Missing english translation for "N2030006"
+2020-06-12 20:47:55.140 +02:00 [Warning] Missing weapon for item "2050002"
+2020-06-12 20:47:55.142 +02:00 [Warning] Missing weapon for item "2050003"
+2020-06-12 20:47:55.145 +02:00 [Warning] Missing english translation for "N2050003"
+2020-06-12 20:47:55.187 +02:00 [Warning] Missing english translation for "N4060005"
+2020-06-12 20:47:55.188 +02:00 [Warning] Missing english translation for "N4060006"
+2020-06-12 20:47:55.190 +02:00 [Warning] Missing english translation for "N4060007"
+2020-06-12 20:47:55.191 +02:00 [Warning] Missing english translation for "N4060008"
+2020-06-12 20:47:55.193 +02:00 [Warning] Missing english translation for "N4060009"
+2020-06-12 20:47:55.194 +02:00 [Warning] Missing english translation for "N4060010"
+2020-06-12 20:47:55.196 +02:00 [Warning] Missing english translation for "N4060011"
+2020-06-12 20:47:55.199 +02:00 [Warning] Missing english translation for "N4060012"
+2020-06-12 20:47:55.201 +02:00 [Warning] Missing english translation for "N4060013"
+2020-06-12 20:47:55.202 +02:00 [Warning] Missing english translation for "N4060014"
+2020-06-12 20:47:55.204 +02:00 [Warning] Missing english translation for "N4040002"
+2020-06-12 20:47:55.207 +02:00 [Warning] Missing english translation for "N4050009"
+2020-06-12 20:47:55.210 +02:00 [Warning] Missing english translation for "N4050010"
+2020-06-12 20:47:55.212 +02:00 [Warning] Missing english translation for "N4050015"
+2020-06-12 20:47:55.214 +02:00 [Warning] Missing english translation for "N4050016"
+2020-06-12 20:47:55.216 +02:00 [Warning] Missing english translation for "N4050021"
+2020-06-12 20:47:55.217 +02:00 [Warning] Missing english translation for "N4050022"
+2020-06-12 20:47:55.220 +02:00 [Warning] Missing english translation for "N4050023"
+2020-06-12 20:47:55.221 +02:00 [Warning] Missing english translation for "N4050024"
+2020-06-12 20:47:55.223 +02:00 [Warning] Missing english translation for "N4050025"
+2020-06-12 20:47:55.224 +02:00 [Warning] Missing english translation for "N4050026"
+2020-06-12 20:47:55.226 +02:00 [Warning] Missing english translation for "N4050027"
+2020-06-12 20:47:55.227 +02:00 [Warning] Missing english translation for "N4050028"
+2020-06-12 20:47:55.266 +02:00 [Information] [0/802] 1001002: Longtail
+2020-06-12 20:47:55.267 +02:00 [Information] [1/802] 1001001: Idol
+2020-06-12 20:47:55.268 +02:00 [Information] [2/802] 1000035: Shaggy Cut
+2020-06-12 20:47:55.270 +02:00 [Information] [3/802] 1000034: Ponytail
+2020-06-12 20:47:55.271 +02:00 [Information] [4/802] 1000033: N1000032
+2020-06-12 20:47:55.272 +02:00 [Information] [5/802] 1000032: N1000032
+2020-06-12 20:47:55.273 +02:00 [Information] [6/802] 1000031: N1000031
+2020-06-12 20:47:55.275 +02:00 [Information] [7/802] 1000030: N1000030
+2020-06-12 20:47:55.277 +02:00 [Information] [8/802] 1000028: Fox Tail
+2020-06-12 20:47:55.279 +02:00 [Information] [9/802] 1000027: N1000027
+2020-06-12 20:47:55.280 +02:00 [Information] [10/802] 1000026: Vintage Hair
+2020-06-12 20:47:55.281 +02:00 [Information] [11/802] 1000025: Fist Hair
+2020-06-12 20:47:55.283 +02:00 [Information] [12/802] 1000024: Rolling
+2020-06-12 20:47:55.284 +02:00 [Information] [13/802] 1000023: Mount
+2020-06-12 20:47:55.287 +02:00 [Information] [14/802] 1000022: Short Shagi
+2020-06-12 20:47:55.288 +02:00 [Information] [15/802] 1000021: Volume Bob
+2020-06-12 20:47:55.289 +02:00 [Information] [16/802] 1000020: Short Indy
+2020-06-12 20:47:55.290 +02:00 [Information] [17/802] 1000019: Afro Perm
+2020-06-12 20:47:55.292 +02:00 [Information] [18/802] 1000018: Master Fame
+2020-06-12 20:47:55.293 +02:00 [Information] [19/802] 1000017: Monkey Head
+2020-06-12 20:47:55.294 +02:00 [Information] [20/802] 1000016: Band
+2020-06-12 20:47:55.297 +02:00 [Information] [21/802] 1000015: Woolf
+2020-06-12 20:47:55.298 +02:00 [Information] [22/802] 1000014: Wild
+2020-06-12 20:47:55.300 +02:00 [Information] [23/802] 1000013: Wax
+2020-06-12 20:47:55.301 +02:00 [Information] [24/802] 1000012: Spin
+2020-06-12 20:47:55.304 +02:00 [Information] [25/802] 1000011: Dealler Hair
+2020-06-12 20:47:55.308 +02:00 [Information] [26/802] 1000010: Master Glory
+2020-06-12 20:47:55.311 +02:00 [Information] [27/802] 1000009: Long Double Tale
+2020-06-12 20:47:55.315 +02:00 [Information] [28/802] 1000008: Double Tale
+2020-06-12 20:47:55.319 +02:00 [Information] [29/802] 1000007: Silklace
+2020-06-12 20:47:55.323 +02:00 [Information] [30/802] 1000006: Little Form
+2020-06-12 20:47:55.325 +02:00 [Information] [31/802] 1000005: Soft
+2020-06-12 20:47:55.330 +02:00 [Information] [32/802] 1000004: Inline
+2020-06-12 20:47:55.332 +02:00 [Information] [33/802] 1000003: Natural
+2020-06-12 20:47:55.334 +02:00 [Information] [34/802] 1000002: Stroke
+2020-06-12 20:47:55.337 +02:00 [Information] [35/802] 1000001: Keen
+2020-06-12 20:47:55.340 +02:00 [Information] [36/802] 1000000: GM Hair
+2020-06-12 20:47:55.343 +02:00 [Information] [37/802] 1011002: N1011002
+2020-06-12 20:47:55.345 +02:00 [Information] [38/802] 1011001: N1011001
+2020-06-12 20:47:55.381 +02:00 [Information] [39/802] 1010035: Innocent Style
+2020-06-12 20:47:55.384 +02:00 [Information] [40/802] 1010034: N1010032
+2020-06-12 20:47:55.387 +02:00 [Information] [41/802] 1010033: N1010032
+2020-06-12 20:47:55.391 +02:00 [Information] [42/802] 1010032: N1010032
+2020-06-12 20:47:55.393 +02:00 [Information] [43/802] 1010031: N1010031
+2020-06-12 20:47:55.397 +02:00 [Information] [44/802] 1010028: not trans
+2020-06-12 20:47:55.401 +02:00 [Information] [45/802] 1010026: Band Style
+2020-06-12 20:47:55.404 +02:00 [Information] [46/802] 1010025: Fist Style
+2020-06-12 20:47:55.406 +02:00 [Information] [47/802] 1010024: Zest Style
+2020-06-12 20:47:55.410 +02:00 [Information] [48/802] 1010023: Fresh Style
+2020-06-12 20:47:55.413 +02:00 [Information] [49/802] 1010022: Pirate Style
+2020-06-12 20:47:55.416 +02:00 [Information] [50/802] 1010020: Master Justice
+2020-06-12 20:47:55.420 +02:00 [Information] [51/802] 1010019: Solitude Style
+2020-06-12 20:47:55.423 +02:00 [Information] [52/802] 1010018: Gambler Style
+2020-06-12 20:47:55.426 +02:00 [Information] [53/802] 1010017: Cold Style
+2020-06-12 20:47:55.430 +02:00 [Information] [54/802] 1010016: Blast Style
+2020-06-12 20:47:55.432 +02:00 [Information] [55/802] 1010015: Blunt Style
+2020-06-12 20:47:55.435 +02:00 [Information] [56/802] 1010014: Vacant Style
+2020-06-12 20:47:55.439 +02:00 [Information] [57/802] 1010013: Dealler style
+2020-06-12 20:47:55.440 +02:00 [Information] [58/802] 1010012: Kich Style
+2020-06-12 20:47:55.443 +02:00 [Information] [59/802] 1010011: Master Honest
+2020-06-12 20:47:55.446 +02:00 [Information] [60/802] 1010010: Pure style
+2020-06-12 20:47:55.450 +02:00 [Information] [61/802] 1010009: Orange Style
+2020-06-12 20:47:55.453 +02:00 [Information] [62/802] 1010008: Vivid Style
+2020-06-12 20:47:55.457 +02:00 [Information] [63/802] 1010007: Sexy Style
+2020-06-12 20:47:55.460 +02:00 [Information] [64/802] 1010006: Pretty Style
+2020-06-12 20:47:55.463 +02:00 [Information] [65/802] 1010005: Sharp W Style
+2020-06-12 20:47:55.464 +02:00 [Information] [66/802] 1010004: Intense Style
+2020-06-12 20:47:55.467 +02:00 [Information] [67/802] 1010003: Sharp m style
+2020-06-12 20:47:55.468 +02:00 [Information] [68/802] 1010002: Vacant Style
+2020-06-12 20:47:55.469 +02:00 [Information] [69/802] 1010001: Bright Style
+2020-06-12 20:47:55.471 +02:00 [Information] [70/802] 1021018: N1021018
+2020-06-12 20:47:55.472 +02:00 [Information] [71/802] 1021017: N1021017
+2020-06-12 20:47:55.473 +02:00 [Information] [72/802] 1021016: Gentle Hearts Trench Coat
+2020-06-12 20:47:55.475 +02:00 [Information] [73/802] 1021015: Rocaille Corset
+2020-06-12 20:47:55.477 +02:00 [Information] [74/802] 1021011: Sweet Bear Jaket
+2020-06-12 20:47:55.479 +02:00 [Information] [75/802] 1021010: Winter Bear Padding
+2020-06-12 20:47:55.480 +02:00 [Information] [76/802] 1021009: Officer Line Suit
+2020-06-12 20:47:55.482 +02:00 [Information] [77/802] 1021008: Tamer Corset
+2020-06-12 20:47:55.483 +02:00 [Information] [78/802] 1021007: Cheerleader Top
+2020-06-12 20:47:55.484 +02:00 [Information] [79/802] 1021006: Beasty Boy Jacket
+2020-06-12 20:47:55.487 +02:00 [Information] [80/802] 1021005: Halloween Vampire Coat
+2020-06-12 20:47:55.488 +02:00 [Information] [81/802] 1021004: Halloween Pumpkin Dress
+2020-06-12 20:47:55.490 +02:00 [Information] [82/802] 1021003: Battle Maid Top
+2020-06-12 20:47:55.491 +02:00 [Information] [83/802] 1021002: Cytonik Suit
+2020-06-12 20:47:55.492 +02:00 [Information] [84/802] 1021001: Phoenix Suit
+2020-06-12 20:47:55.494 +02:00 [Information] [85/802] 1020077: Pineapple Swimsuit Top
+2020-06-12 20:47:55.497 +02:00 [Information] [86/802] 1020076: Sexy Diamond Swimsuit Top
+2020-06-12 20:47:55.498 +02:00 [Information] [87/802] 1020075: Jazz up Butterfly Swimsuit Top
+2020-06-12 20:47:55.499 +02:00 [Information] [88/802] 1020074: Elegant tattoo Body
+2020-06-12 20:47:55.500 +02:00 [Information] [89/802] 1020073: Sixpack ABS
+2020-06-12 20:47:55.502 +02:00 [Information] [90/802] 1020072: Sixpack ABS
+2020-06-12 20:47:55.503 +02:00 [Information] [91/802] 1020071: Zigzag Rider Suit
+2020-06-12 20:47:55.504 +02:00 [Information] [92/802] 1020070: Sun Rider Suit
+2020-06-12 20:47:55.516 +02:00 [Information] [93/802] 1020069: Cotton Cat Boy Jacket
+2020-06-12 20:47:55.517 +02:00 [Information] [94/802] 1020068: Cotton Cat Girl Top
+2020-06-12 20:47:55.519 +02:00 [Information] [95/802] 1020067: N1020067
+2020-06-12 20:47:55.520 +02:00 [Information] [96/802] 1020066: N1020066
+2020-06-12 20:47:55.521 +02:00 [Information] [97/802] 1020065: 태조 상의
+2020-06-12 20:47:55.523 +02:00 [Information] [98/802] 1020064: N1020064
+2020-06-12 20:47:55.525 +02:00 [Information] [99/802] 1020063: Open Button Shirts
+2020-06-12 20:47:55.526 +02:00 [Information] [100/802] 1020062: Open Shoulder Tee
+2020-06-12 20:47:55.528 +02:00 [Information] [101/802] 1020061: N1020061
+2020-06-12 20:47:55.529 +02:00 [Information] [102/802] 1020059: Guardian Armour
+2020-06-12 20:47:55.531 +02:00 [Information] [103/802] 1020058: Warrior W Armour
+2020-06-12 20:47:55.532 +02:00 [Information] [104/802] 1020056: Iron Band Hood-Tee
+2020-06-12 20:47:55.533 +02:00 [Information] [105/802] 1020055: Iron Fist Brace
+2020-06-12 20:47:55.536 +02:00 [Information] [106/802] 1020054: Halloween Noble Robe
+2020-06-12 20:47:55.537 +02:00 [Information] [107/802] 1020053: Halloween Witch Dress
+2020-06-12 20:47:55.540 +02:00 [Information] [108/802] 1020052: Cool Guy
+2020-06-12 20:47:55.541 +02:00 [Information] [109/802] 1020051: Cool Girl Bikini Top
+2020-06-12 20:47:55.542 +02:00 [Information] [110/802] 1020050: Santa Girl Shirt
+2020-06-12 20:47:55.543 +02:00 [Information] [111/802] 1020049: Santa Boy Jacket
+2020-06-12 20:47:55.546 +02:00 [Information] [112/802] 1020048: New Sphere Suit
+2020-06-12 20:47:55.547 +02:00 [Information] [113/802] 1020047: New Dive Suit
+2020-06-12 20:47:55.549 +02:00 [Information] [114/802] 1020046: Western Boy Coat
+2020-06-12 20:47:55.550 +02:00 [Information] [115/802] 1020045: Western Girl Top
+2020-06-12 20:47:55.551 +02:00 [Information] [116/802] 1020044: Tender Spot Hood
+2020-06-12 20:47:55.552 +02:00 [Information] [117/802] 1020043: Adventure Vest
+2020-06-12 20:47:55.556 +02:00 [Information] [118/802] 1020042: Captain Guard Upper Suits
+2020-06-12 20:47:55.559 +02:00 [Information] [119/802] 1020041: Pirate Jacket
+2020-06-12 20:47:55.567 +02:00 [Information] [120/802] 1020040: Valentine Classic Suit
+2020-06-12 20:47:55.570 +02:00 [Information] [121/802] 1020039: Retro Boy Jacket
+2020-06-12 20:47:55.573 +02:00 [Information] [122/802] 1020038: Master Force
+2020-06-12 20:47:55.577 +02:00 [Information] [123/802] 1020037: Champ Jacket
+2020-06-12 20:47:55.580 +02:00 [Information] [124/802] 1020036: Open Wild Shirt
+2020-06-12 20:47:55.582 +02:00 [Information] [125/802] 1020035: Layerd Jacket
+2020-06-12 20:47:55.586 +02:00 [Information] [126/802] 1020034: Midfield Coat
+2020-06-12 20:47:55.588 +02:00 [Information] [127/802] 1020033: Space Suit
+2020-06-12 20:47:55.596 +02:00 [Information] [128/802] 1020032: Activity Suit
+2020-06-12 20:47:55.598 +02:00 [Information] [129/802] 1020031: Loose Jacket
+2020-06-12 20:47:55.600 +02:00 [Information] [130/802] 1020030: Frock Shape Jacket
+2020-06-12 20:47:55.603 +02:00 [Information] [131/802] 1020029: Sprite Jacket
+2020-06-12 20:47:55.607 +02:00 [Information] [132/802] 1020028: Check Shield Jacket
+2020-06-12 20:47:55.611 +02:00 [Information] [133/802] 1020027: Modern M Vest
+2020-06-12 20:47:55.615 +02:00 [Information] [134/802] 1020026: Baseball Jacket
+2020-06-12 20:47:55.617 +02:00 [Information] [135/802] 1020025: Keeper Jacket
+2020-06-12 20:47:55.619 +02:00 [Information] [136/802] 1020024: Basic Type-A
+2020-06-12 20:47:55.621 +02:00 [Information] [137/802] 1020022: Dealler Suit
+2020-06-12 20:47:55.623 +02:00 [Information] [138/802] 1020021: Open Shoulder Gown
+2020-06-12 20:47:55.627 +02:00 [Information] [139/802] 1020020: Eastern Girl Top
+2020-06-12 20:47:55.630 +02:00 [Information] [140/802] 1020019: Valentine Rose Blouse
+2020-06-12 20:47:55.631 +02:00 [Information] [141/802] 1020018: Retro Girl Jacket
+2020-06-12 20:47:55.633 +02:00 [Information] [142/802] 1020017: Master Wise
+2020-06-12 20:47:55.637 +02:00 [Information] [143/802] 1020016: Pearls Neck line Top
+2020-06-12 20:47:55.639 +02:00 [Information] [144/802] 1020015: Honey Top
+2020-06-12 20:47:55.641 +02:00 [Information] [145/802] 1020014: Silklace Corset
+2020-06-12 20:47:55.645 +02:00 [Information] [146/802] 1020013: Bikini Top
+2020-06-12 20:47:55.649 +02:00 [Information] [147/802] 1020012: Sportiamer Top
+2020-06-12 20:47:55.651 +02:00 [Information] [148/802] 1020011: Sentimental Corset
+2020-06-12 20:47:55.653 +02:00 [Information] [149/802] 1020010: Pocket L Jacket
+2020-06-12 20:47:55.656 +02:00 [Information] [150/802] 1020009: Indian Mode Shirt
+2020-06-12 20:47:55.657 +02:00 [Information] [151/802] 1020008: Corset Jacket
+2020-06-12 20:47:55.658 +02:00 [Information] [152/802] 1020007: MidSlim Jacket
+2020-06-12 20:47:55.660 +02:00 [Information] [153/802] 1020006: Modern W Shirt
+2020-06-12 20:47:55.662 +02:00 [Information] [154/802] 1020005: Check Shield Jacket
+2020-06-12 20:47:55.665 +02:00 [Information] [155/802] 1020004: Floral Top
+2020-06-12 20:47:55.666 +02:00 [Information] [156/802] 1020003: Sweet Blue
+2020-06-12 20:47:55.668 +02:00 [Information] [157/802] 1020002: Traning M Shirt
+2020-06-12 20:47:55.669 +02:00 [Information] [158/802] 1020001: Traning W Shirt
+2020-06-12 20:47:55.670 +02:00 [Information] [159/802] 1020000: GM Suit
+2020-06-12 20:47:55.672 +02:00 [Information] [160/802] 1031018: N1031018
+2020-06-12 20:47:55.673 +02:00 [Information] [161/802] 1031017: N1031017
+2020-06-12 20:47:55.676 +02:00 [Information] [162/802] 1031016: Gentle Hearts Pants
+2020-06-12 20:47:55.678 +02:00 [Information] [163/802] 1031015: Rocaille Skirt
+2020-06-12 20:47:55.679 +02:00 [Information] [164/802] 1031011: Sweet Bear Hot Pants
+2020-06-12 20:47:55.681 +02:00 [Information] [165/802] 1031010: Winter Bear Pants
+2020-06-12 20:47:55.682 +02:00 [Information] [166/802] 1031009: Officer Line Pants
+2020-06-12 20:47:55.683 +02:00 [Information] [167/802] 1031008: Tamer Pants
+2020-06-12 20:47:55.686 +02:00 [Information] [168/802] 1031007: Cheerleader Skirt
+2020-06-12 20:47:55.687 +02:00 [Information] [169/802] 1031006: Beasty Boy Pants
+2020-06-12 20:47:55.688 +02:00 [Information] [170/802] 1031005: Halloween Vampire Pants
+2020-06-12 20:47:55.689 +02:00 [Information] [171/802] 1031004: Halloween Pumpkin Pants
+2020-06-12 20:47:55.691 +02:00 [Information] [172/802] 1031003: Battle Maid Skirt
+2020-06-12 20:47:55.692 +02:00 [Information] [173/802] 1031002: Cytonik Pants
+2020-06-12 20:47:55.693 +02:00 [Information] [174/802] 1031001: Phoenix Pants
+2020-06-12 20:47:55.696 +02:00 [Information] [175/802] 1030074: Pineapple Swimsuit Bottoms
+2020-06-12 20:47:55.697 +02:00 [Information] [176/802] 1030073: Sexy Diamond Swimsuit Bottoms
+2020-06-12 20:47:55.698 +02:00 [Information] [177/802] 1030072: Jazz up Butterfly Swimsuit Bottoms
+2020-06-12 20:47:55.700 +02:00 [Information] [178/802] 1030071: Jazz up  Flower Swimsuit Trunks
+2020-06-12 20:47:55.701 +02:00 [Information] [179/802] 1030070: Blue Ocean Swim Trunks
+2020-06-12 20:47:55.702 +02:00 [Information] [180/802] 1030069: Green Arrow Swim Trunks
+2020-06-12 20:47:55.705 +02:00 [Information] [181/802] 1030068: Zigzag Rider Pants
+2020-06-12 20:47:55.706 +02:00 [Information] [182/802] 1030067: Sun Rider Pants
+2020-06-12 20:47:55.708 +02:00 [Information] [183/802] 1030066: Cotton Cat Boy Pants
+2020-06-12 20:47:55.709 +02:00 [Information] [184/802] 1030065: Cotton Cat Girl Pants
+2020-06-12 20:47:55.712 +02:00 [Information] [185/802] 1030064: N1030063
+2020-06-12 20:47:55.715 +02:00 [Information] [186/802] 1030063: N1030063
+2020-06-12 20:47:55.717 +02:00 [Information] [187/802] 1030062: N1030062
+2020-06-12 20:47:55.718 +02:00 [Information] [188/802] 1030061: Comfort Formal Pants
+2020-06-12 20:47:55.719 +02:00 [Information] [189/802] 1030060: Trendy Hot-Pants
+2020-06-12 20:47:55.720 +02:00 [Information] [190/802] 1030059: N1030059
+2020-06-12 20:47:55.721 +02:00 [Information] [191/802] 1030057: Guardian Plate
+2020-06-12 20:47:55.724 +02:00 [Information] [192/802] 1030056: Warrior W Pants
+2020-06-12 20:47:55.725 +02:00 [Information] [193/802] 1030054: Iron Band Pants
+2020-06-12 20:47:55.727 +02:00 [Information] [194/802] 1030053: Iron Fist Pants
+2020-06-12 20:47:55.728 +02:00 [Information] [195/802] 1030052: Honey Hot Pants
+2020-06-12 20:47:55.730 +02:00 [Information] [196/802] 1030051: Cool Girl Bikini Pants
+2020-06-12 20:47:55.731 +02:00 [Information] [197/802] 1030050: Cool Guy Pants
+2020-06-12 20:47:55.732 +02:00 [Information] [198/802] 1030049: Santa Girl Skirt
+2020-06-12 20:47:55.735 +02:00 [Information] [199/802] 1030048: Santa Boy Pants
+2020-06-12 20:47:55.736 +02:00 [Information] [200/802] 1030047: Valentine Classic Pants
+2020-06-12 20:47:55.737 +02:00 [Information] [201/802] 1030046: New Sphere Pants
+2020-06-12 20:47:55.738 +02:00 [Information] [202/802] 1030045: New Dive Pants
+2020-06-12 20:47:55.740 +02:00 [Information] [203/802] 1030044: Western Boy Pants
+2020-06-12 20:47:55.741 +02:00 [Information] [204/802] 1030043: Western Girl Skirt
+2020-06-12 20:47:55.742 +02:00 [Information] [205/802] 1030042: Adventure Baggy Pants
+2020-06-12 20:47:55.745 +02:00 [Information] [206/802] 1030041: Tender Guard Pants
+2020-06-12 20:47:55.746 +02:00 [Information] [207/802] 1030040: Captain Guard Pants Suits
+2020-06-12 20:47:55.748 +02:00 [Information] [208/802] 1030039: Pirate Pants
+2020-06-12 20:47:55.749 +02:00 [Information] [209/802] 1030038: Dealler pants
+2020-06-12 20:47:55.750 +02:00 [Information] [210/802] 1030037: Teajo pants
+2020-06-12 20:47:55.751 +02:00 [Information] [211/802] 1030036: Retro Boy Pants
+2020-06-12 20:47:55.754 +02:00 [Information] [212/802] 1030035: Master Act
+2020-06-12 20:47:55.755 +02:00 [Information] [213/802] 1030034: Champ Pants
+2020-06-12 20:47:55.757 +02:00 [Information] [214/802] 1030033: Wild Boots Cut
+2020-06-12 20:47:55.758 +02:00 [Information] [215/802] 1030032: Layerd Slacks
+2020-06-12 20:47:55.759 +02:00 [Information] [216/802] 1030031: Hockey Pants
+2020-06-12 20:47:55.760 +02:00 [Information] [217/802] 1030030: Space Slacks
+2020-06-12 20:47:55.761 +02:00 [Information] [218/802] 1030029: Keeper Pants
+2020-06-12 20:47:55.764 +02:00 [Information] [219/802] 1030028: Baseball Pants
+2020-06-12 20:47:55.765 +02:00 [Information] [220/802] 1030027: Activity Pants
+2020-06-12 20:47:55.767 +02:00 [Information] [221/802] 1030026: Pocket Pants
+2020-06-12 20:47:55.768 +02:00 [Information] [222/802] 1030025: Frock Armer Slacks
+2020-06-12 20:47:55.769 +02:00 [Information] [223/802] 1030024: Chain Hiphop Slacks
+2020-06-12 20:47:55.771 +02:00 [Information] [224/802] 1030023: Open Slim Slacks
+2020-06-12 20:47:55.773 +02:00 [Information] [225/802] 1030022: Modern M Pants
+2020-06-12 20:47:55.775 +02:00 [Information] [226/802] 1030021: Padding Slacks
+2020-06-12 20:47:55.776 +02:00 [Information] [227/802] 1030020: Chiffon Flared Skirt
+2020-06-12 20:47:55.777 +02:00 [Information] [228/802] 1030019: Eastern Girl Skirt
+2020-06-12 20:47:55.779 +02:00 [Information] [229/802] 1030018: Valentine Rose Dress
+2020-06-12 20:47:55.780 +02:00 [Information] [230/802] 1030017: Retro Girl Skirt
+2020-06-12 20:47:55.783 +02:00 [Information] [231/802] 1030016: Master Silence
+2020-06-12 20:47:55.784 +02:00 [Information] [232/802] 1030015: Pearls Pleats
+2020-06-12 20:47:55.785 +02:00 [Information] [233/802] 1030014: Silklace Skirt
+2020-06-12 20:47:55.786 +02:00 [Information] [234/802] 1030013: Bikini Hot Pants
+2020-06-12 20:47:55.788 +02:00 [Information] [235/802] 1030012: Sportiamer Pants
+2020-06-12 20:47:55.789 +02:00 [Information] [236/802] 1030011: Sentimental Pleats
+2020-06-12 20:47:55.790 +02:00 [Information] [237/802] 1030010: Pocket L Pants
+2020-06-12 20:47:55.793 +02:00 [Information] [238/802] 1030009: Indian Mode Pants
+2020-06-12 20:47:55.794 +02:00 [Information] [239/802] 1030008: Big Chain Skirt
+2020-06-12 20:47:55.797 +02:00 [Information] [240/802] 1030007: Hockey Check Pants
+2020-06-12 20:47:55.799 +02:00 [Information] [241/802] 1030006: Modern W Breeches
+2020-06-12 20:47:55.800 +02:00 [Information] [242/802] 1030005: Open Slim Skirt
+2020-06-12 20:47:55.803 +02:00 [Information] [243/802] 1030004: Floral Skirt
+2020-06-12 20:47:55.804 +02:00 [Information] [244/802] 1030003: Pleats
+2020-06-12 20:47:55.805 +02:00 [Information] [245/802] 1030002: Training M Pants
+2020-06-12 20:47:55.807 +02:00 [Information] [246/802] 1030001: Training W Pants
+2020-06-12 20:47:55.810 +02:00 [Information] [247/802] 1030000: GM pants
+2020-06-12 20:47:55.815 +02:00 [Information] [248/802] 1041018: N1041018
+2020-06-12 20:47:55.818 +02:00 [Information] [249/802] 1041017: N1041017
+2020-06-12 20:47:55.821 +02:00 [Information] [250/802] 1041016: Gentle Hearts Gloves
+2020-06-12 20:47:55.824 +02:00 [Information] [251/802] 1041015: Rocaille Gloves
+2020-06-12 20:47:55.825 +02:00 [Information] [252/802] 1041011: Sweet Bear Gloves
+2020-06-12 20:47:55.828 +02:00 [Information] [253/802] 1041010: Winter Bear Gloves
+2020-06-12 20:47:55.830 +02:00 [Information] [254/802] 1041009: Officer Line Gloves
+2020-06-12 20:47:55.833 +02:00 [Information] [255/802] 1041008: Tamer Gloves
+2020-06-12 20:47:55.835 +02:00 [Information] [256/802] 1041007: Cheerleader Gloves
+2020-06-12 20:47:55.837 +02:00 [Information] [257/802] 1041006: Beasty Boy Gloves
+2020-06-12 20:47:55.839 +02:00 [Information] [258/802] 1041003: Battle Maid Gloves
+2020-06-12 20:47:55.850 +02:00 [Information] [259/802] 1041002: Cytonik Gloves
+2020-06-12 20:47:55.853 +02:00 [Information] [260/802] 1041001: Phoenix Gloves
+2020-06-12 20:47:55.855 +02:00 [Information] [261/802] 1040066: Pineapple Swimsuit Bracelet
+2020-06-12 20:47:55.857 +02:00 [Information] [262/802] 1040065: Sexy Diamond Swimsuit Bracelet
+2020-06-12 20:47:55.861 +02:00 [Information] [263/802] 1040064: Jazz up Butterfly Swimsuit Bracelet
+2020-06-12 20:47:55.864 +02:00 [Information] [264/802] 1040063: Jazz up Flower Swimsuit Bracelet
+2020-06-12 20:47:55.866 +02:00 [Information] [265/802] 1040062: Blue Ocean Swimsuit Bracelet
+2020-06-12 20:47:55.867 +02:00 [Information] [266/802] 1040061: Green Arrow Swimsuit Bracelet
+2020-06-12 20:47:55.871 +02:00 [Information] [267/802] 1040060: Zigzag Rider Gloves
+2020-06-12 20:47:55.874 +02:00 [Information] [268/802] 1040059: Sun Rider Gloves
+2020-06-12 20:47:55.877 +02:00 [Information] [269/802] 1040058: Cotton Cat Boy Gloves
+2020-06-12 20:47:55.881 +02:00 [Information] [270/802] 1040057: Cotton Cat Girl Gloves
+2020-06-12 20:47:55.885 +02:00 [Information] [271/802] 1040056: N1040056
+2020-06-12 20:47:55.887 +02:00 [Information] [272/802] 1040055: N1040055
+2020-06-12 20:47:55.890 +02:00 [Information] [273/802] 1040053: Guardian Gloves
+2020-06-12 20:47:55.893 +02:00 [Information] [274/802] 1040052: Warrior W Gloves
+2020-06-12 20:47:55.896 +02:00 [Information] [275/802] 1040050: Iron Band Glove
+2020-06-12 20:47:55.898 +02:00 [Information] [276/802] 1040049: Iron Fist Glove
+2020-06-12 20:47:55.901 +02:00 [Information] [277/802] 1040048: New Sphere Gloves
+2020-06-12 20:47:55.902 +02:00 [Information] [278/802] 1040047: New Dive Gloves
+2020-06-12 20:47:55.905 +02:00 [Information] [279/802] 1040046: Santa Boy Glove
+2020-06-12 20:47:55.909 +02:00 [Information] [280/802] 1040045: Santa Girl Glove
+2020-06-12 20:47:55.910 +02:00 [Information] [281/802] 1040044: Western Boy Armlet
+2020-06-12 20:47:55.912 +02:00 [Information] [282/802] 1040043: Western Girl Gloves
+2020-06-12 20:47:55.914 +02:00 [Information] [283/802] 1040042: Adventure Gloves
+2020-06-12 20:47:55.915 +02:00 [Information] [284/802] 1040041: Tender Guard Gloves
+2020-06-12 20:47:55.918 +02:00 [Information] [285/802] 1040040: GM Gloves
+2020-06-12 20:47:55.919 +02:00 [Information] [286/802] 1040039: Captain Guard Gloves
+2020-06-12 20:47:55.920 +02:00 [Information] [287/802] 1040038: Pirate Gloves
+2020-06-12 20:47:55.922 +02:00 [Information] [288/802] 1040037: Dealler Suit
+2020-06-12 20:47:55.923 +02:00 [Information] [289/802] 1040036: Valentine Classic Gloves
+2020-06-12 20:47:55.924 +02:00 [Information] [290/802] 1040035: Retro Boy Knuckle
+2020-06-12 20:47:55.926 +02:00 [Information] [291/802] 1040034: Master command
+2020-06-12 20:47:55.929 +02:00 [Information] [292/802] 1040033: Wild Type-A Nuckle
+2020-06-12 20:47:55.930 +02:00 [Information] [293/802] 1040032: Champ Glove
+2020-06-12 20:47:55.931 +02:00 [Information] [294/802] 1040031: Pin Nuckle
+2020-06-12 20:47:55.933 +02:00 [Information] [295/802] 1040030: Defenders Glove
+2020-06-12 20:47:55.934 +02:00 [Information] [296/802] 1040029: Space Glove
+2020-06-12 20:47:55.936 +02:00 [Information] [297/802] 1040028: Baseball Glove
+2020-06-12 20:47:55.938 +02:00 [Information] [298/802] 1040027: Modern M Glove
+2020-06-12 20:47:55.939 +02:00 [Information] [299/802] 1040026: Shield Glove
+2020-06-12 20:47:55.941 +02:00 [Information] [300/802] 1040025: Sprite Glove
+2020-06-12 20:47:55.942 +02:00 [Information] [301/802] 1040024: Pocket M Gloves
+2020-06-12 20:47:55.943 +02:00 [Information] [302/802] 1040023: Keeper Glolve
+2020-06-12 20:47:55.944 +02:00 [Information] [303/802] 1040022: Frock Armer Glove
+2020-06-12 20:47:55.946 +02:00 [Information] [304/802] 1040021: Activity Glove
+2020-06-12 20:47:55.949 +02:00 [Information] [305/802] 1040020: Control Gloves
+2020-06-12 20:47:55.950 +02:00 [Information] [306/802] 1040019: Eastern Girl Gloves
+2020-06-12 20:47:55.951 +02:00 [Information] [307/802] 1040018: Valentine Rose Gloves
+2020-06-12 20:47:55.952 +02:00 [Information] [308/802] 1040017: Retro Girl
+2020-06-12 20:47:55.954 +02:00 [Information] [309/802] 1040016: Master lesson
+2020-06-12 20:47:55.955 +02:00 [Information] [310/802] 1040015: Honey Glove
+2020-06-12 20:47:55.958 +02:00 [Information] [311/802] 1040014: Pearls Glove
+2020-06-12 20:47:55.959 +02:00 [Information] [312/802] 1040013: Silklace Glove
+2020-06-12 20:47:55.961 +02:00 [Information] [313/802] 1040012: Match Glove
+2020-06-12 20:47:55.962 +02:00 [Information] [314/802] 1040011: Sportiamer Glove
+2020-06-12 20:47:55.963 +02:00 [Information] [315/802] 1040010: Floral Glove
+2020-06-12 20:47:55.964 +02:00 [Information] [316/802] 1040009: ArmorSlim Glove
+2020-06-12 20:47:55.966 +02:00 [Information] [317/802] 1040008: String Glove
+2020-06-12 20:47:55.968 +02:00 [Information] [318/802] 1040007: Shield Slim Glove
+2020-06-12 20:47:55.969 +02:00 [Information] [319/802] 1040006: Sentimental Glove
+2020-06-12 20:47:55.971 +02:00 [Information] [320/802] 1040005: Pocket W Gloves
+2020-06-12 20:47:55.972 +02:00 [Information] [321/802] 1040004: Modern W Glove
+2020-06-12 20:47:55.973 +02:00 [Information] [322/802] 1040003: Indian Mode Glove
+2020-06-12 20:47:55.974 +02:00 [Information] [323/802] 1040002: Basic M Hand
+2020-06-12 20:47:55.976 +02:00 [Information] [324/802] 1040001: Basic W Hand
+2020-06-12 20:47:55.978 +02:00 [Information] [325/802] 1051018: N1051018
+2020-06-12 20:47:55.980 +02:00 [Information] [326/802] 1051017: N1051017
+2020-06-12 20:47:55.982 +02:00 [Information] [327/802] 1051016: Gentle Hearts Shoes
+2020-06-12 20:47:55.984 +02:00 [Information] [328/802] 1051015: Rocaille Shoes
+2020-06-12 20:47:55.985 +02:00 [Information] [329/802] 1051011: Sweet Bear Boots
+2020-06-12 20:47:55.986 +02:00 [Information] [330/802] 1051010: Winter Bear Boots
+2020-06-12 20:47:55.989 +02:00 [Information] [331/802] 1051009: Officer Line Boots
+2020-06-12 20:47:55.990 +02:00 [Information] [332/802] 1051008: Tamer Shoes
+2020-06-12 20:47:55.991 +02:00 [Information] [333/802] 1051007: Cheerleader Shoes
+2020-06-12 20:47:55.992 +02:00 [Information] [334/802] 1051006: Beasty Boy Shoes
+2020-06-12 20:47:55.994 +02:00 [Information] [335/802] 1051003: Battle Maid Shoes
+2020-06-12 20:47:55.995 +02:00 [Information] [336/802] 1051002: Cytonik Shoes
+2020-06-12 20:47:55.997 +02:00 [Information] [337/802] 1051001: Phoenix Shoes
+2020-06-12 20:47:55.999 +02:00 [Information] [338/802] 1050067: Pineapple Swimsuit Sandals
+2020-06-12 20:47:56.001 +02:00 [Information] [339/802] 1050066: Sexy Diamond Swimsuit Sandals
+2020-06-12 20:47:56.002 +02:00 [Information] [340/802] 1050065: Jazz up Butterfly Swimsuit Sandals
+2020-06-12 20:47:56.004 +02:00 [Information] [341/802] 1050064: Jazz up Flower Swimsuit Sandals
+2020-06-12 20:47:56.005 +02:00 [Information] [342/802] 1050063: Blue Ocean Swimsuit Sandals
+2020-06-12 20:47:56.006 +02:00 [Information] [343/802] 1050062: Green Arrow Swimsuit Sandals
+2020-06-12 20:47:56.009 +02:00 [Information] [344/802] 1050061: Zigzag Rider Shoes
+2020-06-12 20:47:56.010 +02:00 [Information] [345/802] 1050060: Sun Rider Shoes
+2020-06-12 20:47:56.012 +02:00 [Information] [346/802] 1050059: Cotton Cat Boy Shoes
+2020-06-12 20:47:56.014 +02:00 [Information] [347/802] 1050058: Cotton Cat Girl Boots
+2020-06-12 20:47:56.015 +02:00 [Information] [348/802] 1050057: N1050056
+2020-06-12 20:47:56.016 +02:00 [Information] [349/802] 1050056: N1050056
+2020-06-12 20:47:56.019 +02:00 [Information] [350/802] 1050055: Guardian protector
+2020-06-12 20:47:56.020 +02:00 [Information] [351/802] 1050054: N1050054
+2020-06-12 20:47:56.022 +02:00 [Information] [352/802] 1050052: Guardian protector
+2020-06-12 20:47:56.023 +02:00 [Information] [353/802] 1050051: Warrior W Boots
+2020-06-12 20:47:56.024 +02:00 [Information] [354/802] 1050049: Iron Band Foot
+2020-06-12 20:47:56.026 +02:00 [Information] [355/802] 1050048: Iron Fist Protector
+2020-06-12 20:47:56.028 +02:00 [Information] [356/802] 1050047: New Dive Web Foot
+2020-06-12 20:47:56.029 +02:00 [Information] [357/802] 1050046: New Sphere Protector
+2020-06-12 20:47:56.031 +02:00 [Information] [358/802] 1050045: Santa Girl Boots
+2020-06-12 20:47:56.032 +02:00 [Information] [359/802] 1050044: Santa Boy Shoes
+2020-06-12 20:47:56.033 +02:00 [Information] [360/802] 1050043: Western Boy Shoes
+2020-06-12 20:47:56.034 +02:00 [Information] [361/802] 1050042: Western Long Boots
+2020-06-12 20:47:56.035 +02:00 [Information] [362/802] 1050041: Tender Guard Boots
+2020-06-12 20:47:56.038 +02:00 [Information] [363/802] 1050040: Adventure Shoes
+2020-06-12 20:47:56.039 +02:00 [Information] [364/802] 1050039: Captain Guard Boots
+2020-06-12 20:47:56.041 +02:00 [Information] [365/802] 1050038: Pirate Shoes
+2020-06-12 20:47:56.042 +02:00 [Information] [366/802] 1050037: Dealler Shoes
+2020-06-12 20:47:56.043 +02:00 [Information] [367/802] 1050036: Valentine Classic Shoes
+2020-06-12 20:47:56.045 +02:00 [Information] [368/802] 1050035: Retro Boy Shoes
+2020-06-12 20:47:56.047 +02:00 [Information] [369/802] 1050034: Master Past
+2020-06-12 20:47:56.049 +02:00 [Information] [370/802] 1050033: Wild Walker
+2020-06-12 20:47:56.050 +02:00 [Information] [371/802] 1050032: Champ Shoes
+2020-06-12 20:47:56.051 +02:00 [Information] [372/802] 1050031: Layerd Shoes
+2020-06-12 20:47:56.052 +02:00 [Information] [373/802] 1050030: Hockey Protector
+2020-06-12 20:47:56.054 +02:00 [Information] [374/802] 1050029: Space Boots
+2020-06-12 20:47:56.055 +02:00 [Information] [375/802] 1050028: Connect Hiphop Shoes
+2020-06-12 20:47:56.058 +02:00 [Information] [376/802] 1050027: Baseball Shoes
+2020-06-12 20:47:56.060 +02:00 [Information] [377/802] 1050026: Checkshield M Sneakers
+2020-06-12 20:47:56.063 +02:00 [Information] [378/802] 1050025: Modern Walker
+2020-06-12 20:47:56.067 +02:00 [Information] [379/802] 1050024: Keeper Shoes
+2020-06-12 20:47:56.071 +02:00 [Information] [380/802] 1050023: Activity Shoes
+2020-06-12 20:47:56.073 +02:00 [Information] [381/802] 1050022: Pocket L Shoes
+2020-06-12 20:47:56.078 +02:00 [Information] [382/802] 1050021: Frock JumPing Sneakers
+2020-06-12 20:47:56.081 +02:00 [Information] [383/802] 1050020: Cuffs Long Boots
+2020-06-12 20:47:56.084 +02:00 [Information] [384/802] 1050019: Eastern Girl Heels
+2020-06-12 20:47:56.089 +02:00 [Information] [385/802] 1050018: Valentine Rose Heels
+2020-06-12 20:47:56.091 +02:00 [Information] [386/802] 1050017: Retro Girl Shoes
+2020-06-12 20:47:56.092 +02:00 [Information] [387/802] 1050016: Master Stay
+2020-06-12 20:47:56.097 +02:00 [Information] [388/802] 1050015: Honey Walker Heel
+2020-06-12 20:47:56.100 +02:00 [Information] [389/802] 1050014: Pearls Walker
+2020-06-12 20:47:56.102 +02:00 [Information] [390/802] 1050013: Silklace Heel
+2020-06-12 20:47:56.107 +02:00 [Information] [391/802] 1050012: Match Boots
+2020-06-12 20:47:56.109 +02:00 [Information] [392/802] 1050011: Sportiamer Shoes
+2020-06-12 20:47:56.112 +02:00 [Information] [393/802] 1050010: Hockey Shoes
+2020-06-12 20:47:56.116 +02:00 [Information] [394/802] 1050009: Floral Boots
+2020-06-12 20:47:56.118 +02:00 [Information] [395/802] 1050008: Checkshield W Sneakers
+2020-06-12 20:47:56.120 +02:00 [Information] [396/802] 1050007: Modern Lineup Walker
+2020-06-12 20:47:56.123 +02:00 [Information] [397/802] 1050006: Connect Walker
+2020-06-12 20:47:56.127 +02:00 [Information] [398/802] 1050005: Indian Mode Shoes
+2020-06-12 20:47:56.128 +02:00 [Information] [399/802] 1050004: Pocket L Shoes
+2020-06-12 20:47:56.130 +02:00 [Information] [400/802] 1050003: Sentimental Boots
+2020-06-12 20:47:56.131 +02:00 [Information] [401/802] 1050001: Sporty W Shoes
+2020-06-12 20:47:56.133 +02:00 [Information] [402/802] 1050002: Sporty M Shoes
+2020-06-12 20:47:56.134 +02:00 [Information] [403/802] 1060088: Super Sonic Heroes
+2020-06-12 20:47:56.136 +02:00 [Information] [404/802] 1060087: Super Sonic Heroines
+2020-06-12 20:47:56.138 +02:00 [Information] [405/802] 1060086: Lucky Bag
+2020-06-12 20:47:56.139 +02:00 [Information] [406/802] 1061017: N1061017
+2020-06-12 20:47:56.140 +02:00 [Information] [407/802] 1061016: Crown Felt Hat
+2020-06-12 20:47:56.142 +02:00 [Information] [408/802] 1061015: Flower Ribbon
+2020-06-12 20:47:56.143 +02:00 [Information] [409/802] 1060085: Monocle
+2020-06-12 20:47:56.144 +02:00 [Information] [410/802] 1060084: Spike Band
+2020-06-12 20:47:56.147 +02:00 [Information] [411/802] 1061014: Winter Ear Warmer
+2020-06-12 20:47:56.148 +02:00 [Information] [412/802] 1061013: Sweet Ear Warmer
+2020-06-12 20:47:56.150 +02:00 [Information] [413/802] 1061012: Winter Color Goggles
+2020-06-12 20:47:56.151 +02:00 [Information] [414/802] 1061011: Sweet Color Goggles
+2020-06-12 20:47:56.153 +02:00 [Information] [415/802] 1061010: Sweet Bear Hood
+2020-06-12 20:47:56.154 +02:00 [Information] [416/802] 1061009: Winter Bear Hood
+2020-06-12 20:47:56.157 +02:00 [Information] [417/802] 1060083: Lilit Virus
+2020-06-12 20:47:56.158 +02:00 [Information] [418/802] 1060082: Ophelia Virus
+2020-06-12 20:47:56.160 +02:00 [Information] [419/802] 1061008: Rose Ribbon Hat
+2020-06-12 20:47:56.161 +02:00 [Information] [420/802] 1061005: Demon Horn
+2020-06-12 20:47:56.162 +02:00 [Information] [421/802] 1061004: Mini Jack-o-lantern
+2020-06-12 20:47:56.164 +02:00 [Information] [422/802] 1060081: Doctor Mask
+2020-06-12 20:47:56.166 +02:00 [Information] [423/802] 1060080: Ghost Mask
+2020-06-12 20:47:56.167 +02:00 [Information] [424/802] 1060079: Halloween Acc2
+2020-06-12 20:47:56.168 +02:00 [Information] [425/802] 1060078: Halloween Acc1
+2020-06-12 20:47:56.170 +02:00 [Information] [426/802] 1060077: Halloween Male Acc2
+2020-06-12 20:47:56.171 +02:00 [Information] [427/802] 1061003: Symbol of Maid
+2020-06-12 20:47:56.172 +02:00 [Information] [428/802] 1060075: 2010 Fumbi Bock
+2020-06-12 20:47:56.174 +02:00 [Information] [429/802] 1060074: 2011 Fumbi Beer
+2020-06-12 20:47:56.176 +02:00 [Information] [430/802] 1060072: Dandy Sunglasses Type-F
+2020-06-12 20:47:56.177 +02:00 [Information] [431/802] 1060071: Dandy Sunglasses Type-M
+2020-06-12 20:47:56.179 +02:00 [Information] [432/802] 1060070: Rudder Cap
+2020-06-12 20:47:56.180 +02:00 [Information] [433/802] 1060069: Stardust Cap
+2020-06-12 20:47:56.181 +02:00 [Information] [434/802] 1060068: Cotton Cat Girl Cap
+2020-06-12 20:47:56.183 +02:00 [Information] [435/802] 1060067: Cotton Cat Boy Mask
+2020-06-12 20:47:56.185 +02:00 [Information] [436/802] 1060066: N1060066
+2020-06-12 20:47:56.186 +02:00 [Information] [437/802] 1060065: Egg Fumbi
+2020-06-12 20:47:56.188 +02:00 [Information] [438/802] 1060064: Guardian Mask
+2020-06-12 20:47:56.189 +02:00 [Information] [439/802] 1060063: not trans
+2020-06-12 20:47:56.191 +02:00 [Information] [440/802] 1060062: not trans
+2020-06-12 20:47:56.192 +02:00 [Information] [441/802] 1060061: not trans
+2020-06-12 20:47:56.193 +02:00 [Information] [442/802] 1060060: not trans
+2020-06-12 20:47:56.196 +02:00 [Information] [443/802] 1060059: Western Girl Cap
+2020-06-12 20:47:56.197 +02:00 [Information] [444/802] 1060058: Western Cap
+2020-06-12 20:47:56.199 +02:00 [Information] [445/802] 1060057: Little Rudolph
+2020-06-12 20:47:56.200 +02:00 [Information] [446/802] 1060056: Kid Rudolph
+2020-06-12 20:47:56.201 +02:00 [Information] [447/802] 1060055: Ddolph
+2020-06-12 20:47:56.202 +02:00 [Information] [448/802] 1060054: DJ Santa
+2020-06-12 20:47:56.204 +02:00 [Information] [449/802] 1060053: Captain Guard Mask
+2020-06-12 20:47:56.206 +02:00 [Information] [450/802] 1060052: Space Rabbit
+2020-06-12 20:47:56.208 +02:00 [Information] [451/802] 1060051: N1060051
+2020-06-12 20:47:56.209 +02:00 [Information] [452/802] 1060050: Asteroid Virus
+2020-06-12 20:47:56.211 +02:00 [Information] [453/802] 1060049: Vintage Cap
+2020-06-12 20:47:56.213 +02:00 [Information] [454/802] 1060048: Halloween Witch Hat
+2020-06-12 20:47:56.215 +02:00 [Information] [455/802] 1060047: Jack-o-lantern
+2020-06-12 20:47:56.217 +02:00 [Information] [456/802] 1060046: Oriental Band
+2020-06-12 20:47:56.218 +02:00 [Information] [457/802] 1060045: Tuxedo Rabbit
+2020-06-12 20:47:56.220 +02:00 [Information] [458/802] 1060044: White Rabbit
+2020-06-12 20:47:56.221 +02:00 [Information] [459/802] 1060043: Strombat Rabbit
+2020-06-12 20:47:56.222 +02:00 [Information] [460/802] 1060042: Small OktoberfestBeer W
+2020-06-12 20:47:56.223 +02:00 [Information] [461/802] 1060041: Small OktoberfestBeer M
+2020-06-12 20:47:56.226 +02:00 [Information] [462/802] 1060040: Big Oktoberfest Beer
+2020-06-12 20:47:56.227 +02:00 [Information] [463/802] 1060039: Purple Frame Sunglass
+2020-06-12 20:47:56.228 +02:00 [Information] [464/802] 1060032: Valentine Cap
+2020-06-12 20:47:56.230 +02:00 [Information] [465/802] 1060031: Frame Sunglass
+2020-06-12 20:47:56.231 +02:00 [Information] [466/802] 1060030: Boeing Sunglass
+2020-06-12 20:47:56.232 +02:00 [Information] [467/802] 1060029: Pumbee Antena
+2020-06-12 20:47:56.235 +02:00 [Information] [468/802] 1060028: Pumbee's Instant Noodle
+2020-06-12 20:47:56.236 +02:00 [Information] [469/802] 1060027: Baseball Helmet
+2020-06-12 20:47:56.237 +02:00 [Information] [470/802] 1060026: Master Mental
+2020-06-12 20:47:56.239 +02:00 [Information] [471/802] 1060025: Steel Wild Mask
+2020-06-12 20:47:56.240 +02:00 [Information] [472/802] 1060024: Moving Coil Headphone
+2020-06-12 20:47:56.242 +02:00 [Information] [473/802] 1060023: Anger Horn
+2020-06-12 20:47:56.243 +02:00 [Information] [474/802] 1060022: Eastern Girl Cap
+2020-06-12 20:47:56.246 +02:00 [Information] [475/802] 1060021: Valentine Ribbon
+2020-06-12 20:47:56.247 +02:00 [Information] [476/802] 1060020: Crown of Queen
+2020-06-12 20:47:56.248 +02:00 [Information] [477/802] 1060019: Sun Flower
+2020-06-12 20:47:56.249 +02:00 [Information] [478/802] 1060018: Red Sunglass
+2020-06-12 20:47:56.250 +02:00 [Information] [479/802] 1060017: Bunny Girl Band
+2020-06-12 20:47:56.252 +02:00 [Information] [480/802] 1060016: Master Intellectual
+2020-06-12 20:47:56.253 +02:00 [Information] [481/802] 1060015: Spectacles
+2020-06-12 20:47:56.255 +02:00 [Information] [482/802] 1060014: Cutie Cats
+2020-06-12 20:47:56.257 +02:00 [Information] [483/802] 1060013: Dynamic Headphone
+2020-06-12 20:47:56.258 +02:00 [Information] [484/802] 1060012: Envy Ranger
+2020-06-12 20:47:56.259 +02:00 [Information] [485/802] 1060011: Santa Cap
+2020-06-12 20:47:56.261 +02:00 [Information] [486/802] 1060010: Nice Rudolph (Rudolph Zzang)
+2020-06-12 20:47:56.262 +02:00 [Information] [487/802] 1060009: Snow Man
+2020-06-12 20:47:56.265 +02:00 [Information] [488/802] 1060008: Moody Snow Man
+2020-06-12 20:47:56.266 +02:00 [Information] [489/802] 1060007: Ridiculous Snow Man
+2020-06-12 20:47:56.267 +02:00 [Information] [490/802] 1060006: Crying Snow Man
+2020-06-12 20:47:56.268 +02:00 [Information] [491/802] 1060005: Smart Snow Man
+2020-06-12 20:47:56.270 +02:00 [Information] [492/802] 1060004: Lucky Mouse
+2020-06-12 20:47:56.271 +02:00 [Information] [493/802] 1060003: Daemon Virus
+2020-06-12 20:47:56.272 +02:00 [Information] [494/802] 1060002: Joker Virus
+2020-06-12 20:47:56.275 +02:00 [Information] [495/802] 1060001: Alice Baby Virus
+2020-06-12 20:47:56.276 +02:00 [Information] [496/802] 1060000: 바이러스
+2020-06-12 20:47:56.277 +02:00 [Information] [497/802] 1060038: Spectacles
+2020-06-12 20:47:56.279 +02:00 [Information] [498/802] 1060037: Cutie Cats
+2020-06-12 20:47:56.280 +02:00 [Information] [499/802] 1060036: Dynamic Headphone
+2020-06-12 20:47:56.282 +02:00 [Information] [500/802] 1060035: Steel Wild Mask
+2020-06-12 20:47:56.284 +02:00 [Information] [501/802] 1060034: Moving Coil Headphone
+2020-06-12 20:47:56.285 +02:00 [Information] [502/802] 1060033: Anger Horn
+2020-06-12 20:47:56.287 +02:00 [Information] [503/802] 2000000: Training Plasma Sword
+2020-06-12 20:47:56.288 +02:00 [Information] [504/802] 2000001: Plasma Sword
+2020-06-12 20:47:56.290 +02:00 [Information] [505/802] 2000002: Counter Sword
+2020-06-12 20:47:56.291 +02:00 [Information] [506/802] 2000003: Storm Bat
+2020-06-12 20:47:56.294 +02:00 [Information] [507/802] 2000004: Katana
+2020-06-12 20:47:56.295 +02:00 [Information] [508/802] 2000005: Vital Shock
+2020-06-12 20:47:56.298 +02:00 [Information] [509/802] 2000006: Spy Dagger
+2020-06-12 20:47:56.299 +02:00 [Information] [510/802] 2000007: Lucifer
+2020-06-12 20:47:56.300 +02:00 [Information] [511/802] 2000008: Taser Sword
+2020-06-12 20:47:56.301 +02:00 [Information] [512/802] 2000009: Crow Counter Sword
+2020-06-12 20:47:56.304 +02:00 [Information] [513/802] 2000010: Twin Blade
+2020-06-12 20:47:56.305 +02:00 [Information] [514/802] 2000011: Bloody Spy Dagger
+2020-06-12 20:47:56.306 +02:00 [Information] [515/802] 2010000: Training Submachine Gun
+2020-06-12 20:47:56.307 +02:00 [Information] [516/802] 2010001: Submachine Gun
+2020-06-12 20:47:56.309 +02:00 [Information] [517/802] 2010002: Revolver
+2020-06-12 20:47:56.310 +02:00 [Information] [518/802] 2010004: Semi-Rifle
+2020-06-12 20:47:56.315 +02:00 [Information] [519/802] 2010006: Smash Rifle
+2020-06-12 20:47:56.318 +02:00 [Information] [520/802] 2010007: Hand Gun
+2020-06-12 20:47:56.321 +02:00 [Information] [521/802] 2010008: Burst Shotgun
+2020-06-12 20:47:56.325 +02:00 [Information] [522/802] 2010009: DHa-41
+2020-06-12 20:47:56.328 +02:00 [Information] [523/802] 2010010: Puppy Revolver
+2020-06-12 20:47:56.331 +02:00 [Information] [524/802] 2010011: AYA! Rifle
+2020-06-12 20:47:56.333 +02:00 [Information] [525/802] 2010012: Laser Cat
+2020-06-12 20:47:56.335 +02:00 [Information] [526/802] 2010013: Classic Burst Shotgun
+2020-06-12 20:47:56.337 +02:00 [Information] [527/802] 2010014: Toy Gun
+2020-06-12 20:47:56.339 +02:00 [Information] [528/802] 2010015: Homing Rifle
+2020-06-12 20:47:56.340 +02:00 [Information] [529/802] 2010016: Air Gun
+2020-06-12 20:47:56.343 +02:00 [Information] [530/802] 2010017: Shark Submachine Gun
+2020-06-12 20:47:56.345 +02:00 [Information] [531/802] 2010018: N2010018
+2020-06-12 20:47:56.347 +02:00 [Information] [532/802] 2010019: N2010019
+2020-06-12 20:47:56.348 +02:00 [Information] [533/802] 2010020: Diamond Air Gun
+2020-06-12 20:47:56.349 +02:00 [Information] [534/802] 2020001: Heavy Machine Gun
+2020-06-12 20:47:56.353 +02:00 [Information] [535/802] 2020002: Gauss Rifle
+2020-06-12 20:47:56.354 +02:00 [Information] [536/802] 2020003: Dracula Rifle
+2020-06-12 20:47:56.356 +02:00 [Information] [537/802] 2020004: Metal Storm
+2020-06-12 20:47:56.357 +02:00 [Information] [538/802] 2030001: Rail Gun
+2020-06-12 20:47:56.359 +02:00 [Information] [539/802] 2030002: Cannonade
+2020-06-12 20:47:56.363 +02:00 [Information] [540/802] 2030003: Signal Railgun
+2020-06-12 20:47:56.365 +02:00 [Information] [541/802] 2030004: Dragonade
+2020-06-12 20:47:56.367 +02:00 [Information] [542/802] 2030005: N2030005
+2020-06-12 20:47:56.369 +02:00 [Information] [543/802] 2030006: N2030006
+2020-06-12 20:47:56.374 +02:00 [Information] [544/802] 2040001: Sentry Gun
+2020-06-12 20:47:56.376 +02:00 [Information] [545/802] 2040002: Sentiforce
+2020-06-12 20:47:56.380 +02:00 [Information] [546/802] 2040003: Senty Nell
+2020-06-12 20:47:56.384 +02:00 [Information] [547/802] 2040004: Honey Bee Sentry Gun
+2020-06-12 20:47:56.387 +02:00 [Information] [548/802] 2040005: Fumbi Senty Nell
+2020-06-12 20:47:56.390 +02:00 [Information] [549/802] 2050001: Mine Gun
+2020-06-12 20:47:56.393 +02:00 [Information] [550/802] 2050002: Earth Bomber
+2020-06-12 20:47:56.397 +02:00 [Information] [551/802] 2050003: N2050003
+2020-06-12 20:47:56.401 +02:00 [Information] [552/802] 2060001: Mind Energy
+2020-06-12 20:47:56.404 +02:00 [Information] [553/802] 2060002: Mind Shock
+2020-06-12 20:47:56.407 +02:00 [Information] [554/802] 2060003: Heart Of Princess
+2020-06-12 20:47:56.411 +02:00 [Information] [555/802] 2060004: Alice Shock
+2020-06-12 20:47:56.421 +02:00 [Information] [556/802] 3000000: Half HP Mastery
+2020-06-12 20:47:56.424 +02:00 [Information] [557/802] 3000001: HP Mastery
+2020-06-12 20:47:56.427 +02:00 [Information] [558/802] 3000002: Skill Mastery
+2020-06-12 20:47:56.432 +02:00 [Information] [559/802] 3000003: Dual Mastery
+2020-06-12 20:47:56.434 +02:00 [Information] [560/802] 3010001: Anchoring
+2020-06-12 20:47:56.437 +02:00 [Information] [561/802] 3020001: Flying
+2020-06-12 20:47:56.439 +02:00 [Information] [562/802] 3030001: Invisible
+2020-06-12 20:47:56.442 +02:00 [Information] [563/802] 3040001: Detect
+2020-06-12 20:47:56.446 +02:00 [Information] [564/802] 3050001: Shield
+2020-06-12 20:47:56.450 +02:00 [Information] [565/802] 3060001: Block
+2020-06-12 20:47:56.453 +02:00 [Information] [566/802] 3070001: Bind
+2020-06-12 20:47:56.455 +02:00 [Information] [567/802] 3080001: Metallic
+2020-06-12 20:47:56.502 +02:00 [Information] Starting server...
+2020-06-12 20:47:56.770 +02:00 [Information] Caching: Channels
+2020-06-12 20:47:56.772 +02:00 [Information] Caching: Effects
+2020-06-12 20:47:56.773 +02:00 [Debug] Caching...
+2020-06-12 20:47:56.806 +02:00 [Warning] Missing english translation for item effect "3004"
+2020-06-12 20:47:56.815 +02:00 [Warning] Missing english translation for item effect "71027"
+2020-06-12 20:47:56.817 +02:00 [Warning] Missing english translation for item effect "71038"
+2020-06-12 20:47:56.824 +02:00 [Warning] Missing english translation for item effect "71047"
+2020-06-12 20:47:56.841 +02:00 [Warning] Missing english translation for item effect "71057"
+2020-06-12 20:47:56.844 +02:00 [Information] Caching: Items
+2020-06-12 20:47:56.847 +02:00 [Information] Caching: DefaultItems
+2020-06-12 20:47:56.848 +02:00 [Debug] Caching...
+2020-06-12 20:47:56.884 +02:00 [Information] Caching: Shop
+2020-06-12 20:47:56.891 +02:00 [Debug] Caching...
+2020-06-12 20:47:57.021 +02:00 [Information] Caching: Experience
+2020-06-12 20:47:57.022 +02:00 [Debug] Caching...
+2020-06-12 20:47:57.038 +02:00 [Information] Caching: Maps
+2020-06-12 20:47:57.040 +02:00 [Debug] Caching...
+2020-06-12 20:47:57.094 +02:00 [Information] LoadMaps() called (104)
+2020-06-12 20:47:57.111 +02:00 [Information] Loading map 2, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 20:47:57.123 +02:00 [Information] Loading map 3, Resources/MapInfo/bginfo-Neden02.ini
+2020-06-12 20:47:57.125 +02:00 [Information] Loading map 4, Resources/MapInfo/bginfo-Neden03_death.ini
+2020-06-12 20:47:57.128 +02:00 [Information] Loading map 5, Resources/MapInfo/bginfo-city_highway_death.ini
+2020-06-12 20:47:57.131 +02:00 [Information] Loading map 6, Resources/MapInfo/bginfo-19days.ini
+2020-06-12 20:47:57.134 +02:00 [Information] Loading map 7, Resources/MapInfo/bginfo-blockbuster_death.ini
+2020-06-12 20:47:57.136 +02:00 [Information] Loading map 8, Resources/MapInfo/bginfo-galleon_dath.ini
+2020-06-12 20:47:57.137 +02:00 [Information] Loading map 9, Resources/MapInfo/bginfo-oldmoon.ini
+2020-06-12 20:47:57.139 +02:00 [Information] Loading map 10, Resources/MapInfo/bginfo-luna2.ini
+2020-06-12 20:47:57.141 +02:00 [Information] Loading map 11, Resources/MapInfo/bginfo-neoniac_death.ini
+2020-06-12 20:47:57.143 +02:00 [Information] Loading map 12, Resources/MapInfo/bginfo-Holiday.ini
+2020-06-12 20:47:57.145 +02:00 [Information] Loading map 13, Resources/MapInfo/bginfo-Square.ini
+2020-06-12 20:47:57.148 +02:00 [Information] Loading map 14, Resources/MapInfo/bginfo-Azit-EX.ini
+2020-06-12 20:47:57.150 +02:00 [Information] Loading map 15, Resources/MapInfo/bginfo-Azit.ini
+2020-06-12 20:47:57.152 +02:00 [Information] Loading map 16, Resources/MapInfo/bginfo-NedenJ.ini
+2020-06-12 20:47:57.162 +02:00 [Information] Loading map 17, Resources/MapInfo/bginfo-construction.ini
+2020-06-12 20:47:57.164 +02:00 [Information] Loading map 18, Resources/MapInfo/bginfo-spadeA.ini
+2020-06-12 20:47:57.165 +02:00 [Information] Loading map 19, Resources/MapInfo/bginfo-biolab.ini
+2020-06-12 20:47:57.167 +02:00 [Information] Loading map 20, Resources/MapInfo/bginfo-warpship.ini
+2020-06-12 20:47:57.169 +02:00 [Information] Loading map 21, Resources/MapInfo/bginfo-neo_arena.ini
+2020-06-12 20:47:57.172 +02:00 [Information] Loading map 22, Resources/MapInfo/bginfo-new_deathmatch.ini
+2020-06-12 20:47:57.173 +02:00 [Information] Loading map 23, Resources/MapInfo/bginfo-Neden01_G.ini
+2020-06-12 20:47:57.175 +02:00 [Information] Loading map 24, Resources/MapInfo/bginfo-Azit-EX_G.ini
+2020-06-12 20:47:57.177 +02:00 [Information] Loading map 25, Resources/MapInfo/bginfo-NedenJ.ini
+2020-06-12 20:47:57.179 +02:00 [Information] Loading map 31, Resources/MapInfo/bginfo-lc_anc.ini
+2020-06-12 20:47:57.182 +02:00 [Information] Loading map 32, Resources/MapInfo/bginfo-lc_sub.ini
+2020-06-12 20:47:57.183 +02:00 [Information] Loading map 33, Resources/MapInfo/bginfo-lc_practice.ini
+2020-06-12 20:47:57.185 +02:00 [Information] Loading map 34, Resources/MapInfo/bginfo-lc_rail.ini
+2020-06-12 20:47:57.186 +02:00 [Information] Loading map 35, Resources/MapInfo/bginfo-lc_shield.ini
+2020-06-12 20:47:57.187 +02:00 [Information] Loading map 36, Resources/MapInfo/bginfo-lc_countersword.ini
+2020-06-12 20:47:57.189 +02:00 [Information] Loading map 37, Resources/MapInfo/bginfo-lc_shock.ini
+2020-06-12 20:47:57.192 +02:00 [Information] Loading map 46, Resources/MapInfo/bginfo-wave_middle.ini
+2020-06-12 20:47:57.194 +02:00 [Information] Loading map 47, Resources/MapInfo/bginfo-wave_small.ini
+2020-06-12 20:47:57.196 +02:00 [Information] Loading map 48, Resources/MapInfo/bginfo-left4dead.ini
+2020-06-12 20:47:57.197 +02:00 [Information] Loading map 49, Resources/MapInfo/bginfo-acade2.ini
+2020-06-12 20:47:57.199 +02:00 [Information] Loading map 50, Resources/MapInfo/bginfo-conest.ini
+2020-06-12 20:47:57.201 +02:00 [Information] Loading map 51, Resources/MapInfo/bginfo-MS_city_highway.ini
+2020-06-12 20:47:57.203 +02:00 [Information] Loading map 52, Resources/MapInfo/bginfo-Ms_SStation.ini
+2020-06-12 20:47:57.204 +02:00 [Information] Loading map 53, Resources/MapInfo/bginfo-Ms_Neden01.ini
+2020-06-12 20:47:57.206 +02:00 [Information] Loading map 54, Resources/MapInfo/bginfo-Ms_SStation01.ini
+2020-06-12 20:47:57.207 +02:00 [Information] Loading map 55, Resources/MapInfo/bginfo-Ms_Tunnel.ini
+2020-06-12 20:47:57.209 +02:00 [Information] Loading map 61, Resources/MapInfo/bginfo-colosseum.ini
+2020-06-12 20:47:57.212 +02:00 [Information] Loading map 62, Resources/MapInfo/bginfo-Neden00.ini
+2020-06-12 20:47:57.214 +02:00 [Information] Loading map 63, Resources/MapInfo/bginfo-oldschool.ini
+2020-06-12 20:47:57.216 +02:00 [Information] Loading map 64, Resources/MapInfo/bginfo-city_highway.ini
+2020-06-12 20:47:57.218 +02:00 [Information] Loading map 65, Resources/MapInfo/bginfo-SStation01.ini
+2020-06-12 20:47:57.221 +02:00 [Information] Loading map 66, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 20:47:57.224 +02:00 [Information] Loading map 67, Resources/MapInfo/bginfo-Neden03.ini
+2020-06-12 20:47:57.232 +02:00 [Information] Loading map 68, Resources/MapInfo/bginfo-beginner.ini
+2020-06-12 20:47:57.235 +02:00 [Information] Loading map 69, Resources/MapInfo/bginfo-side3.ini
+2020-06-12 20:47:57.236 +02:00 [Information] Loading map 70, Resources/MapInfo/bginfo-hyperium.ini
+2020-06-12 20:47:57.239 +02:00 [Information] Loading map 71, Resources/MapInfo/bginfo-rustygarden.ini
+2020-06-12 20:47:57.241 +02:00 [Information] Loading map 72, Resources/MapInfo/bginfo-Station3.ini
+2020-06-12 20:47:57.242 +02:00 [Information] Loading map 73, Resources/MapInfo/bginfo-SStation02_G.ini
+2020-06-12 20:47:57.245 +02:00 [Information] Loading map 91, Resources/MapInfo/bginfo-lily_office.ini
+2020-06-12 20:47:57.247 +02:00 [Information] Loading map 92, Resources/MapInfo/bginfo-sixsense.ini
+2020-06-12 20:47:57.250 +02:00 [Information] Loading map 93, Resources/MapInfo/bginfo-19dayssl.ini
+2020-06-12 20:47:57.252 +02:00 [Information] Loading map 94, Resources/MapInfo/bginfo-slpve.ini
+2020-06-12 20:47:57.254 +02:00 [Information] Loading map 95, Resources/MapInfo/bginfo-slhouse.ini
+2020-06-12 20:47:57.255 +02:00 [Information] Loading map 96, Resources/MapInfo/bginfo-Nightmare_sl.ini
+2020-06-12 20:47:57.257 +02:00 [Information] Loading map 97, Resources/MapInfo/bginfo-grave.ini
+2020-06-12 20:47:57.259 +02:00 [Information] Loading map 111, Resources/MapInfo/bginfo-galleon_ffa.ini
+2020-06-12 20:47:57.261 +02:00 [Information] Loading map 112, Resources/MapInfo/bginfo-neoniac_ffa.ini
+2020-06-12 20:47:57.263 +02:00 [Information] Loading map 131, Resources/MapInfo/bginfo-captain_oldmoon.ini
+2020-06-12 20:47:57.265 +02:00 [Information] Loading map 132, Resources/MapInfo/bginfo-captain_Nightmare.ini
+2020-06-12 20:47:57.267 +02:00 [Information] Loading map 133, Resources/MapInfo/bginfo-captain_luna2.ini
+2020-06-12 20:47:57.269 +02:00 [Information] Loading map 134, Resources/MapInfo/bginfo-Azit-EX_CT.ini
+2020-06-12 20:47:57.271 +02:00 [Information] Loading map 151, Resources/MapInfo/bginfo-ironheart.ini
+2020-06-12 20:47:57.273 +02:00 [Information] Loading map 152, Resources/MapInfo/bginfo-skyline.ini
+2020-06-12 20:47:57.283 +02:00 [Information] Loading map 153, Resources/MapInfo/bginfo-bladecity.ini
+2020-06-12 20:47:57.285 +02:00 [Information] Loading map 154, Resources/MapInfo/bginfo-warpship.ini
+2020-06-12 20:47:57.287 +02:00 [Information] Loading map 155, Resources/MapInfo/bginfo-biolab.ini
+2020-06-12 20:47:57.289 +02:00 [Information] Loading map 156, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 20:47:57.292 +02:00 [Information] Loading map 157, Resources/MapInfo/bginfo-city_highway_death.ini
+2020-06-12 20:47:57.294 +02:00 [Information] Loading map 158, Resources/MapInfo/bginfo-bladecity_dm.ini
+2020-06-12 20:47:57.295 +02:00 [Warning] bginfo_path:"resources/mapinfo/bginfo-bladecity_dm.ini" not found
+2020-06-12 20:47:57.296 +02:00 [Information] Loading map 200, Resources/MapInfo/bginfo-wave_wondercode.ini
+2020-06-12 20:47:57.298 +02:00 [Information] Loading map 220, Resources/MapInfo/bginfo-photozone.ini
+2020-06-12 20:47:57.300 +02:00 [Information] Loading map 221, Resources/MapInfo/bginfo_weapon_test.ini
+2020-06-12 20:47:57.302 +02:00 [Information] Loading map 225, Resources/MapInfo/bginfo-alicehouse.ini
+2020-06-12 20:47:57.304 +02:00 [Information] Loading map 227, Resources/MapInfo/bginfo-seize1_mh.ini
+2020-06-12 20:47:57.306 +02:00 [Information] Loading map 228, Resources/MapInfo/bginfo-kstest07.ini
+2020-06-12 20:47:57.307 +02:00 [Information] Loading map 229, Resources/MapInfo/bginfo-kstest03sz.ini
+2020-06-12 20:47:57.308 +02:00 [Information] Loading map 231, Resources/MapInfo/bginfo-wonderland.ini
+2020-06-12 20:47:57.312 +02:00 [Information] Loading map 232, Resources/MapInfo/bginfo-MH_test_16P.ini
+2020-06-12 20:47:57.313 +02:00 [Information] Loading map 233, Resources/MapInfo/bginfo-kstest08.ini
+2020-06-12 20:47:57.315 +02:00 [Warning] Missing english translation for MAPNAME_233
+2020-06-12 20:47:57.316 +02:00 [Information] Loading map 234, Resources/MapInfo/bginfo-Holiday_PVP.ini
+2020-06-12 20:47:57.318 +02:00 [Information] Loading map 235, Resources/MapInfo/bginfo-neo_arena.ini
+2020-06-12 20:47:57.321 +02:00 [Information] Loading map 236, Resources/MapInfo/bginfo-jytest.ini
+2020-06-12 20:47:57.322 +02:00 [Warning] Missing english translation for MAPNAME_236
+2020-06-12 20:47:57.330 +02:00 [Information] Loading map 241, Resources/MapInfo/bginfo-BTC_SStation.ini
+2020-06-12 20:47:57.334 +02:00 [Information] Loading map 242, Resources/MapInfo/bginfo-BTC_Neden01.ini
+2020-06-12 20:47:57.343 +02:00 [Information] Loading map 249, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 20:47:57.359 +02:00 [Information] Loading map 250, Resources/MapInfo/bginfo-Square.ini
+2020-06-12 20:47:57.364 +02:00 [Information] Loading map 251, Resources/MapInfo/bginfo-BTC_Sstation.ini
+2020-06-12 20:47:57.366 +02:00 [Information] Loading map 252, Resources/MapInfo/bginfo-Azit-EX_CT.ini
+2020-06-12 20:47:57.371 +02:00 [Information] Loading map 253, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 20:47:57.374 +02:00 [Information] Loading map 254, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 20:47:57.377 +02:00 [Information] Loading map 255, Resources/MapInfo/bginfo-tuto_test.ini
+2020-06-12 20:47:57.383 +02:00 [Warning] Map 993 couldnt be added!
+2020-06-12 20:47:57.393 +02:00 [Warning] Map 994 couldnt be added!
+2020-06-12 20:47:57.394 +02:00 [Warning] Map 995 couldnt be added!
+2020-06-12 20:47:57.402 +02:00 [Warning] Map 996 couldnt be added!
+2020-06-12 20:47:57.414 +02:00 [Warning] Map 997 couldnt be added!
+2020-06-12 20:47:57.421 +02:00 [Warning] Map 998 couldnt be added!
+2020-06-12 20:47:57.436 +02:00 [Warning] Map 999 couldnt be added!
+2020-06-12 20:47:57.443 +02:00 [Information] Caching: GameTempos
+2020-06-12 20:47:57.445 +02:00 [Debug] Caching...
+2020-06-12 20:47:57.543 +02:00 [Information] Ready for connections!
+2020-06-12 20:47:57.550 +02:00 [Warning] !!! NOOB MODE IS ENABLED! EVERY LOGIN SUCCEEDS AND OVERRIDES ACCOUNT LOGIN DETAILS !!!
+2020-06-12 20:47:57.585 +02:00 [Information] Connected to authserver on endpoint "127.0.0.1:27000"
+2020-06-12 20:48:57.631 +02:00 [Information] Saving players...
+2020-06-12 20:48:57.636 +02:00 [Information] Saving players completed
+2020-06-12 20:49:57.707 +02:00 [Information] Saving players...
+2020-06-12 20:49:57.710 +02:00 [Information] Saving players completed
+2020-06-12 20:50:57.770 +02:00 [Information] Saving players...
+2020-06-12 20:50:57.773 +02:00 [Information] Saving players completed
+2020-06-12 20:51:57.914 +02:00 [Information] Saving players...
+2020-06-12 20:51:57.916 +02:00 [Information] Saving players completed
+2020-06-12 20:52:58.005 +02:00 [Information] Saving players...
+2020-06-12 20:52:58.006 +02:00 [Information] Saving players completed
+2020-06-12 20:53:58.067 +02:00 [Information] Saving players...
+2020-06-12 20:53:58.068 +02:00 [Information] Saving players completed
+2020-06-12 20:54:58.146 +02:00 [Information] Saving players...
+2020-06-12 20:54:58.148 +02:00 [Information] Saving players completed
+2020-06-12 20:55:58.221 +02:00 [Information] Saving players...
+2020-06-12 20:55:58.222 +02:00 [Information] Saving players completed
+2020-06-12 20:56:58.288 +02:00 [Information] Saving players...
+2020-06-12 20:56:58.289 +02:00 [Information] Saving players completed
+2020-06-12 20:57:58.346 +02:00 [Information] Saving players...
+2020-06-12 20:57:58.348 +02:00 [Information] Saving players completed
+2020-06-12 20:58:58.411 +02:00 [Information] Saving players...
+2020-06-12 20:58:58.412 +02:00 [Information] Saving players completed
+2020-06-12 20:59:41.776 +02:00 [Information] Closing...
+2020-06-12 20:59:41.777 +02:00 [Information] Closing...
+2020-06-12 20:59:58.442 +02:00 [Information] Saving players...
+2020-06-12 20:59:58.444 +02:00 [Information] Saving players completed
+2020-06-12 21:04:52.514 +02:00 [Information] Initializing...
+2020-06-12 21:04:52.567 +02:00 [Information] Initializing...
+2020-06-12 21:04:53.283 +02:00 [Information] Initializing...
+2020-06-12 21:04:53.754 +02:00 [Debug] Caching...
+2020-06-12 21:04:53.792 +02:00 [Information] Starting server...
+2020-06-12 21:04:54.069 +02:00 [Information] Caching: Channels
+2020-06-12 21:04:54.071 +02:00 [Information] Caching: Effects
+2020-06-12 21:04:54.073 +02:00 [Debug] Caching...
+2020-06-12 21:04:54.151 +02:00 [Warning] Missing english translation for item effect "3004"
+2020-06-12 21:04:54.166 +02:00 [Warning] Missing english translation for item effect "71027"
+2020-06-12 21:04:54.167 +02:00 [Warning] Missing english translation for item effect "71038"
+2020-06-12 21:04:54.168 +02:00 [Warning] Missing english translation for item effect "71047"
+2020-06-12 21:04:54.169 +02:00 [Warning] Missing english translation for item effect "71057"
+2020-06-12 21:04:54.171 +02:00 [Information] Caching: Items
+2020-06-12 21:04:54.173 +02:00 [Debug] Caching...
+2020-06-12 21:04:54.404 +02:00 [Warning] Missing english translation for "N1000032"
+2020-06-12 21:04:54.406 +02:00 [Warning] Missing english translation for "N1000032"
+2020-06-12 21:04:54.407 +02:00 [Warning] Missing english translation for "N1000031"
+2020-06-12 21:04:54.408 +02:00 [Warning] Missing english translation for "N1000030"
+2020-06-12 21:04:54.409 +02:00 [Warning] Missing english translation for "N1000027"
+2020-06-12 21:04:54.411 +02:00 [Warning] Missing english translation for "N1011002"
+2020-06-12 21:04:54.413 +02:00 [Warning] Missing english translation for "N1011001"
+2020-06-12 21:04:54.415 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 21:04:54.416 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 21:04:54.418 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 21:04:54.419 +02:00 [Warning] Missing english translation for "N1010031"
+2020-06-12 21:04:54.421 +02:00 [Warning] Missing english translation for "N1021018"
+2020-06-12 21:04:54.423 +02:00 [Warning] Missing english translation for "N1021017"
+2020-06-12 21:04:54.430 +02:00 [Warning] Missing english translation for "N1020067"
+2020-06-12 21:04:54.431 +02:00 [Warning] Missing english translation for "N1020066"
+2020-06-12 21:04:54.433 +02:00 [Warning] Missing english translation for "1020065"
+2020-06-12 21:04:54.435 +02:00 [Warning] Missing english translation for "N1020064"
+2020-06-12 21:04:54.437 +02:00 [Warning] Missing english translation for "N1020061"
+2020-06-12 21:04:54.442 +02:00 [Warning] Missing english translation for "N1031018"
+2020-06-12 21:04:54.445 +02:00 [Warning] Missing english translation for "N1031017"
+2020-06-12 21:04:54.453 +02:00 [Warning] Missing english translation for "N1030063"
+2020-06-12 21:04:54.454 +02:00 [Warning] Missing english translation for "N1030063"
+2020-06-12 21:04:54.456 +02:00 [Warning] Missing english translation for "N1030062"
+2020-06-12 21:04:54.457 +02:00 [Warning] Missing english translation for "N1030059"
+2020-06-12 21:04:54.463 +02:00 [Warning] Missing english translation for "N1041018"
+2020-06-12 21:04:54.464 +02:00 [Warning] Missing english translation for "N1041017"
+2020-06-12 21:04:54.471 +02:00 [Warning] Missing english translation for "N1040056"
+2020-06-12 21:04:54.473 +02:00 [Warning] Missing english translation for "N1040055"
+2020-06-12 21:04:54.481 +02:00 [Warning] Missing english translation for "N1051018"
+2020-06-12 21:04:54.484 +02:00 [Warning] Missing english translation for "N1051017"
+2020-06-12 21:04:54.490 +02:00 [Warning] Missing english translation for "N1050056"
+2020-06-12 21:04:54.491 +02:00 [Warning] Missing english translation for "N1050056"
+2020-06-12 21:04:54.493 +02:00 [Warning] Missing english translation for "N1050054"
+2020-06-12 21:04:54.501 +02:00 [Warning] Missing english translation for "N1061017"
+2020-06-12 21:04:54.512 +02:00 [Warning] Missing english translation for "N1060066"
+2020-06-12 21:04:54.516 +02:00 [Warning] Missing english translation for "N1060051"
+2020-06-12 21:04:54.522 +02:00 [Warning] Missing english translation for "1060000"
+2020-06-12 21:04:54.535 +02:00 [Warning] Missing english translation for "N2010018"
+2020-06-12 21:04:54.536 +02:00 [Warning] Missing english translation for "N2010019"
+2020-06-12 21:04:54.542 +02:00 [Warning] Missing weapon for item "2030005"
+2020-06-12 21:04:54.543 +02:00 [Warning] Missing english translation for "N2030005"
+2020-06-12 21:04:54.544 +02:00 [Warning] Missing weapon for item "2030006"
+2020-06-12 21:04:54.546 +02:00 [Warning] Missing english translation for "N2030006"
+2020-06-12 21:04:54.548 +02:00 [Warning] Missing weapon for item "2050002"
+2020-06-12 21:04:54.551 +02:00 [Warning] Missing weapon for item "2050003"
+2020-06-12 21:04:54.552 +02:00 [Warning] Missing english translation for "N2050003"
+2020-06-12 21:04:54.572 +02:00 [Warning] Missing english translation for "N4060005"
+2020-06-12 21:04:54.574 +02:00 [Warning] Missing english translation for "N4060006"
+2020-06-12 21:04:54.575 +02:00 [Warning] Missing english translation for "N4060007"
+2020-06-12 21:04:54.577 +02:00 [Warning] Missing english translation for "N4060008"
+2020-06-12 21:04:54.578 +02:00 [Warning] Missing english translation for "N4060009"
+2020-06-12 21:04:54.580 +02:00 [Warning] Missing english translation for "N4060010"
+2020-06-12 21:04:54.581 +02:00 [Warning] Missing english translation for "N4060011"
+2020-06-12 21:04:54.584 +02:00 [Warning] Missing english translation for "N4060012"
+2020-06-12 21:04:54.586 +02:00 [Warning] Missing english translation for "N4060013"
+2020-06-12 21:04:54.587 +02:00 [Warning] Missing english translation for "N4060014"
+2020-06-12 21:04:54.589 +02:00 [Warning] Missing english translation for "N4040002"
+2020-06-12 21:04:54.591 +02:00 [Warning] Missing english translation for "N4050009"
+2020-06-12 21:04:54.594 +02:00 [Warning] Missing english translation for "N4050010"
+2020-06-12 21:04:54.597 +02:00 [Warning] Missing english translation for "N4050015"
+2020-06-12 21:04:54.598 +02:00 [Warning] Missing english translation for "N4050016"
+2020-06-12 21:04:54.600 +02:00 [Warning] Missing english translation for "N4050021"
+2020-06-12 21:04:54.603 +02:00 [Warning] Missing english translation for "N4050022"
+2020-06-12 21:04:54.605 +02:00 [Warning] Missing english translation for "N4050023"
+2020-06-12 21:04:54.606 +02:00 [Warning] Missing english translation for "N4050024"
+2020-06-12 21:04:54.608 +02:00 [Warning] Missing english translation for "N4050025"
+2020-06-12 21:04:54.609 +02:00 [Warning] Missing english translation for "N4050026"
+2020-06-12 21:04:54.610 +02:00 [Warning] Missing english translation for "N4050027"
+2020-06-12 21:04:54.615 +02:00 [Warning] Missing english translation for "N4050028"
+2020-06-12 21:04:54.649 +02:00 [Information] Caching: DefaultItems
+2020-06-12 21:04:54.651 +02:00 [Debug] Caching...
+2020-06-12 21:04:54.673 +02:00 [Information] Caching: Shop
+2020-06-12 21:04:54.674 +02:00 [Debug] Caching...
+2020-06-12 21:04:54.773 +02:00 [Information] Caching: Experience
+2020-06-12 21:04:54.775 +02:00 [Debug] Caching...
+2020-06-12 21:04:54.792 +02:00 [Information] Caching: Maps
+2020-06-12 21:04:54.793 +02:00 [Debug] Caching...
+2020-06-12 21:04:54.827 +02:00 [Information] LoadMaps() called (104)
+2020-06-12 21:04:54.829 +02:00 [Information] Loading map 2, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 21:04:54.838 +02:00 [Information] Loading map 3, Resources/MapInfo/bginfo-Neden02.ini
+2020-06-12 21:04:54.840 +02:00 [Information] Loading map 4, Resources/MapInfo/bginfo-Neden03_death.ini
+2020-06-12 21:04:54.844 +02:00 [Information] Loading map 5, Resources/MapInfo/bginfo-city_highway_death.ini
+2020-06-12 21:04:54.846 +02:00 [Information] Loading map 6, Resources/MapInfo/bginfo-19days.ini
+2020-06-12 21:04:54.849 +02:00 [Information] Loading map 7, Resources/MapInfo/bginfo-blockbuster_death.ini
+2020-06-12 21:04:54.852 +02:00 [Information] Loading map 8, Resources/MapInfo/bginfo-galleon_dath.ini
+2020-06-12 21:04:54.853 +02:00 [Information] Loading map 9, Resources/MapInfo/bginfo-oldmoon.ini
+2020-06-12 21:04:54.855 +02:00 [Information] Loading map 10, Resources/MapInfo/bginfo-luna2.ini
+2020-06-12 21:04:54.858 +02:00 [Information] Loading map 11, Resources/MapInfo/bginfo-neoniac_death.ini
+2020-06-12 21:04:54.860 +02:00 [Information] Loading map 12, Resources/MapInfo/bginfo-Holiday.ini
+2020-06-12 21:04:54.862 +02:00 [Information] Loading map 13, Resources/MapInfo/bginfo-Square.ini
+2020-06-12 21:04:54.864 +02:00 [Information] Loading map 14, Resources/MapInfo/bginfo-Azit-EX.ini
+2020-06-12 21:04:54.867 +02:00 [Information] Loading map 15, Resources/MapInfo/bginfo-Azit.ini
+2020-06-12 21:04:54.869 +02:00 [Information] Loading map 16, Resources/MapInfo/bginfo-NedenJ.ini
+2020-06-12 21:04:54.871 +02:00 [Information] Loading map 17, Resources/MapInfo/bginfo-construction.ini
+2020-06-12 21:04:54.880 +02:00 [Information] Loading map 18, Resources/MapInfo/bginfo-spadeA.ini
+2020-06-12 21:04:54.881 +02:00 [Information] Loading map 19, Resources/MapInfo/bginfo-biolab.ini
+2020-06-12 21:04:54.883 +02:00 [Information] Loading map 20, Resources/MapInfo/bginfo-warpship.ini
+2020-06-12 21:04:54.886 +02:00 [Information] Loading map 21, Resources/MapInfo/bginfo-neo_arena.ini
+2020-06-12 21:04:54.888 +02:00 [Information] Loading map 22, Resources/MapInfo/bginfo-new_deathmatch.ini
+2020-06-12 21:04:54.889 +02:00 [Information] Loading map 23, Resources/MapInfo/bginfo-Neden01_G.ini
+2020-06-12 21:04:54.891 +02:00 [Information] Loading map 24, Resources/MapInfo/bginfo-Azit-EX_G.ini
+2020-06-12 21:04:54.893 +02:00 [Information] Loading map 25, Resources/MapInfo/bginfo-NedenJ.ini
+2020-06-12 21:04:54.895 +02:00 [Information] Loading map 31, Resources/MapInfo/bginfo-lc_anc.ini
+2020-06-12 21:04:54.897 +02:00 [Information] Loading map 32, Resources/MapInfo/bginfo-lc_sub.ini
+2020-06-12 21:04:54.899 +02:00 [Information] Loading map 33, Resources/MapInfo/bginfo-lc_practice.ini
+2020-06-12 21:04:54.901 +02:00 [Information] Loading map 34, Resources/MapInfo/bginfo-lc_rail.ini
+2020-06-12 21:04:54.903 +02:00 [Information] Loading map 35, Resources/MapInfo/bginfo-lc_shield.ini
+2020-06-12 21:04:54.904 +02:00 [Information] Loading map 36, Resources/MapInfo/bginfo-lc_countersword.ini
+2020-06-12 21:04:54.907 +02:00 [Information] Loading map 37, Resources/MapInfo/bginfo-lc_shock.ini
+2020-06-12 21:04:54.908 +02:00 [Information] Loading map 46, Resources/MapInfo/bginfo-wave_middle.ini
+2020-06-12 21:04:54.910 +02:00 [Information] Loading map 47, Resources/MapInfo/bginfo-wave_small.ini
+2020-06-12 21:04:54.912 +02:00 [Information] Loading map 48, Resources/MapInfo/bginfo-left4dead.ini
+2020-06-12 21:04:54.914 +02:00 [Information] Loading map 49, Resources/MapInfo/bginfo-acade2.ini
+2020-06-12 21:04:54.917 +02:00 [Information] Loading map 50, Resources/MapInfo/bginfo-conest.ini
+2020-06-12 21:04:54.918 +02:00 [Information] Loading map 51, Resources/MapInfo/bginfo-MS_city_highway.ini
+2020-06-12 21:04:54.920 +02:00 [Information] Loading map 52, Resources/MapInfo/bginfo-Ms_SStation.ini
+2020-06-12 21:04:54.921 +02:00 [Information] Loading map 53, Resources/MapInfo/bginfo-Ms_Neden01.ini
+2020-06-12 21:04:54.923 +02:00 [Information] Loading map 54, Resources/MapInfo/bginfo-Ms_SStation01.ini
+2020-06-12 21:04:54.924 +02:00 [Information] Loading map 55, Resources/MapInfo/bginfo-Ms_Tunnel.ini
+2020-06-12 21:04:54.927 +02:00 [Information] Loading map 61, Resources/MapInfo/bginfo-colosseum.ini
+2020-06-12 21:04:54.929 +02:00 [Information] Loading map 62, Resources/MapInfo/bginfo-Neden00.ini
+2020-06-12 21:04:54.931 +02:00 [Information] Loading map 63, Resources/MapInfo/bginfo-oldschool.ini
+2020-06-12 21:04:54.933 +02:00 [Information] Loading map 64, Resources/MapInfo/bginfo-city_highway.ini
+2020-06-12 21:04:54.936 +02:00 [Information] Loading map 65, Resources/MapInfo/bginfo-SStation01.ini
+2020-06-12 21:04:54.939 +02:00 [Information] Loading map 66, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 21:04:54.941 +02:00 [Information] Loading map 67, Resources/MapInfo/bginfo-Neden03.ini
+2020-06-12 21:04:54.949 +02:00 [Information] Loading map 68, Resources/MapInfo/bginfo-beginner.ini
+2020-06-12 21:04:54.952 +02:00 [Information] Loading map 69, Resources/MapInfo/bginfo-side3.ini
+2020-06-12 21:04:54.954 +02:00 [Information] Loading map 70, Resources/MapInfo/bginfo-hyperium.ini
+2020-06-12 21:04:54.956 +02:00 [Information] Loading map 71, Resources/MapInfo/bginfo-rustygarden.ini
+2020-06-12 21:04:54.958 +02:00 [Information] Loading map 72, Resources/MapInfo/bginfo-Station3.ini
+2020-06-12 21:04:54.960 +02:00 [Information] Loading map 73, Resources/MapInfo/bginfo-SStation02_G.ini
+2020-06-12 21:04:54.963 +02:00 [Information] Loading map 91, Resources/MapInfo/bginfo-lily_office.ini
+2020-06-12 21:04:54.965 +02:00 [Information] Loading map 92, Resources/MapInfo/bginfo-sixsense.ini
+2020-06-12 21:04:54.970 +02:00 [Information] Loading map 93, Resources/MapInfo/bginfo-19dayssl.ini
+2020-06-12 21:04:54.972 +02:00 [Information] Loading map 94, Resources/MapInfo/bginfo-slpve.ini
+2020-06-12 21:04:54.974 +02:00 [Information] Loading map 95, Resources/MapInfo/bginfo-slhouse.ini
+2020-06-12 21:04:54.976 +02:00 [Information] Loading map 96, Resources/MapInfo/bginfo-Nightmare_sl.ini
+2020-06-12 21:04:54.978 +02:00 [Information] Loading map 97, Resources/MapInfo/bginfo-grave.ini
+2020-06-12 21:04:54.980 +02:00 [Information] Loading map 111, Resources/MapInfo/bginfo-galleon_ffa.ini
+2020-06-12 21:04:54.981 +02:00 [Information] Loading map 112, Resources/MapInfo/bginfo-neoniac_ffa.ini
+2020-06-12 21:04:54.984 +02:00 [Information] Loading map 131, Resources/MapInfo/bginfo-captain_oldmoon.ini
+2020-06-12 21:04:54.987 +02:00 [Information] Loading map 132, Resources/MapInfo/bginfo-captain_Nightmare.ini
+2020-06-12 21:04:54.989 +02:00 [Information] Loading map 133, Resources/MapInfo/bginfo-captain_luna2.ini
+2020-06-12 21:04:54.991 +02:00 [Information] Loading map 134, Resources/MapInfo/bginfo-Azit-EX_CT.ini
+2020-06-12 21:04:54.992 +02:00 [Information] Loading map 151, Resources/MapInfo/bginfo-ironheart.ini
+2020-06-12 21:04:54.994 +02:00 [Information] Loading map 152, Resources/MapInfo/bginfo-skyline.ini
+2020-06-12 21:04:54.999 +02:00 [Information] Loading map 153, Resources/MapInfo/bginfo-bladecity.ini
+2020-06-12 21:04:55.007 +02:00 [Information] Loading map 154, Resources/MapInfo/bginfo-warpship.ini
+2020-06-12 21:04:55.010 +02:00 [Information] Loading map 155, Resources/MapInfo/bginfo-biolab.ini
+2020-06-12 21:04:55.012 +02:00 [Information] Loading map 156, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 21:04:55.015 +02:00 [Information] Loading map 157, Resources/MapInfo/bginfo-city_highway_death.ini
+2020-06-12 21:04:55.018 +02:00 [Information] Loading map 158, Resources/MapInfo/bginfo-bladecity_dm.ini
+2020-06-12 21:04:55.018 +02:00 [Warning] bginfo_path:"resources/mapinfo/bginfo-bladecity_dm.ini" not found
+2020-06-12 21:04:55.020 +02:00 [Information] Loading map 200, Resources/MapInfo/bginfo-wave_wondercode.ini
+2020-06-12 21:04:55.022 +02:00 [Information] Loading map 220, Resources/MapInfo/bginfo-photozone.ini
+2020-06-12 21:04:55.023 +02:00 [Information] Loading map 221, Resources/MapInfo/bginfo_weapon_test.ini
+2020-06-12 21:04:55.026 +02:00 [Information] Loading map 225, Resources/MapInfo/bginfo-alicehouse.ini
+2020-06-12 21:04:55.028 +02:00 [Information] Loading map 227, Resources/MapInfo/bginfo-seize1_mh.ini
+2020-06-12 21:04:55.030 +02:00 [Information] Loading map 228, Resources/MapInfo/bginfo-kstest07.ini
+2020-06-12 21:04:55.031 +02:00 [Information] Loading map 229, Resources/MapInfo/bginfo-kstest03sz.ini
+2020-06-12 21:04:55.033 +02:00 [Information] Loading map 231, Resources/MapInfo/bginfo-wonderland.ini
+2020-06-12 21:04:55.036 +02:00 [Information] Loading map 232, Resources/MapInfo/bginfo-MH_test_16P.ini
+2020-06-12 21:04:55.038 +02:00 [Information] Loading map 233, Resources/MapInfo/bginfo-kstest08.ini
+2020-06-12 21:04:55.040 +02:00 [Warning] Missing english translation for MAPNAME_233
+2020-06-12 21:04:55.040 +02:00 [Information] Loading map 234, Resources/MapInfo/bginfo-Holiday_PVP.ini
+2020-06-12 21:04:55.044 +02:00 [Information] Loading map 235, Resources/MapInfo/bginfo-neo_arena.ini
+2020-06-12 21:04:55.046 +02:00 [Information] Loading map 236, Resources/MapInfo/bginfo-jytest.ini
+2020-06-12 21:04:55.047 +02:00 [Warning] Missing english translation for MAPNAME_236
+2020-06-12 21:04:55.048 +02:00 [Information] Loading map 241, Resources/MapInfo/bginfo-BTC_SStation.ini
+2020-06-12 21:04:55.050 +02:00 [Information] Loading map 242, Resources/MapInfo/bginfo-BTC_Neden01.ini
+2020-06-12 21:04:55.053 +02:00 [Information] Loading map 249, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 21:04:55.056 +02:00 [Information] Loading map 250, Resources/MapInfo/bginfo-Square.ini
+2020-06-12 21:04:55.059 +02:00 [Information] Loading map 251, Resources/MapInfo/bginfo-BTC_Sstation.ini
+2020-06-12 21:04:55.061 +02:00 [Information] Loading map 252, Resources/MapInfo/bginfo-Azit-EX_CT.ini
+2020-06-12 21:04:55.062 +02:00 [Information] Loading map 253, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 21:04:55.067 +02:00 [Information] Loading map 254, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 21:04:55.071 +02:00 [Information] Loading map 255, Resources/MapInfo/bginfo-tuto_test.ini
+2020-06-12 21:04:55.075 +02:00 [Warning] Map 993 couldnt be added!
+2020-06-12 21:04:55.077 +02:00 [Warning] Map 994 couldnt be added!
+2020-06-12 21:04:55.078 +02:00 [Warning] Map 995 couldnt be added!
+2020-06-12 21:04:55.080 +02:00 [Warning] Map 996 couldnt be added!
+2020-06-12 21:04:55.081 +02:00 [Warning] Map 997 couldnt be added!
+2020-06-12 21:04:55.086 +02:00 [Warning] Map 998 couldnt be added!
+2020-06-12 21:04:55.087 +02:00 [Warning] Map 999 couldnt be added!
+2020-06-12 21:04:55.089 +02:00 [Information] Caching: GameTempos
+2020-06-12 21:04:55.090 +02:00 [Debug] Caching...
+2020-06-12 21:04:55.181 +02:00 [Information] Ready for connections!
+2020-06-12 21:04:55.222 +02:00 [Information] Connected to authserver on endpoint "127.0.0.1:27000"
+2020-06-12 21:05:55.233 +02:00 [Information] Saving players...
+2020-06-12 21:05:55.237 +02:00 [Information] Saving players completed
+2020-06-12 21:06:55.280 +02:00 [Information] Saving players...
+2020-06-12 21:06:55.281 +02:00 [Information] Saving players completed
+2020-06-12 21:07:55.344 +02:00 [Information] Saving players...
+2020-06-12 21:07:55.345 +02:00 [Information] Saving players completed
+2020-06-12 21:08:43.953 +02:00 [Information] Closing...
+2020-06-12 21:08:43.954 +02:00 [Information] Closing...
+2020-06-12 21:08:55.404 +02:00 [Information] Saving players...
+2020-06-12 21:08:55.405 +02:00 [Information] Saving players completed
+2020-06-12 21:09:05.386 +02:00 [Warning] Lost connection to authserver. Trying to reconnect on next update.
+2020-06-12 21:20:04.778 +02:00 [Information] Initializing...
+2020-06-12 21:20:04.827 +02:00 [Information] Initializing...
+2020-06-12 21:20:05.601 +02:00 [Information] Initializing...
+2020-06-12 21:20:06.140 +02:00 [Debug] Caching...
+2020-06-12 21:20:06.198 +02:00 [Information] Starting server...
+2020-06-12 21:20:06.479 +02:00 [Information] Caching: Channels
+2020-06-12 21:20:06.482 +02:00 [Information] Caching: Effects
+2020-06-12 21:20:06.483 +02:00 [Debug] Caching...
+2020-06-12 21:20:06.560 +02:00 [Warning] Missing english translation for item effect "3004"
+2020-06-12 21:20:06.576 +02:00 [Warning] Missing english translation for item effect "71027"
+2020-06-12 21:20:06.577 +02:00 [Warning] Missing english translation for item effect "71038"
+2020-06-12 21:20:06.578 +02:00 [Warning] Missing english translation for item effect "71047"
+2020-06-12 21:20:06.579 +02:00 [Warning] Missing english translation for item effect "71057"
+2020-06-12 21:20:06.581 +02:00 [Information] Caching: Items
+2020-06-12 21:20:06.582 +02:00 [Debug] Caching...
+2020-06-12 21:20:06.845 +02:00 [Warning] Missing english translation for "N1000032"
+2020-06-12 21:20:06.846 +02:00 [Warning] Missing english translation for "N1000032"
+2020-06-12 21:20:06.848 +02:00 [Warning] Missing english translation for "N1000031"
+2020-06-12 21:20:06.849 +02:00 [Warning] Missing english translation for "N1000030"
+2020-06-12 21:20:06.850 +02:00 [Warning] Missing english translation for "N1000027"
+2020-06-12 21:20:06.853 +02:00 [Warning] Missing english translation for "N1011002"
+2020-06-12 21:20:06.854 +02:00 [Warning] Missing english translation for "N1011001"
+2020-06-12 21:20:06.856 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 21:20:06.857 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 21:20:06.859 +02:00 [Warning] Missing english translation for "N1010032"
+2020-06-12 21:20:06.860 +02:00 [Warning] Missing english translation for "N1010031"
+2020-06-12 21:20:06.863 +02:00 [Warning] Missing english translation for "N1021018"
+2020-06-12 21:20:06.864 +02:00 [Warning] Missing english translation for "N1021017"
+2020-06-12 21:20:06.872 +02:00 [Warning] Missing english translation for "N1020067"
+2020-06-12 21:20:06.873 +02:00 [Warning] Missing english translation for "N1020066"
+2020-06-12 21:20:06.875 +02:00 [Warning] Missing english translation for "1020065"
+2020-06-12 21:20:06.877 +02:00 [Warning] Missing english translation for "N1020064"
+2020-06-12 21:20:06.878 +02:00 [Warning] Missing english translation for "N1020061"
+2020-06-12 21:20:06.884 +02:00 [Warning] Missing english translation for "N1031018"
+2020-06-12 21:20:06.886 +02:00 [Warning] Missing english translation for "N1031017"
+2020-06-12 21:20:06.894 +02:00 [Warning] Missing english translation for "N1030063"
+2020-06-12 21:20:06.895 +02:00 [Warning] Missing english translation for "N1030063"
+2020-06-12 21:20:06.897 +02:00 [Warning] Missing english translation for "N1030062"
+2020-06-12 21:20:06.899 +02:00 [Warning] Missing english translation for "N1030059"
+2020-06-12 21:20:06.925 +02:00 [Warning] Missing english translation for "N1041018"
+2020-06-12 21:20:06.927 +02:00 [Warning] Missing english translation for "N1041017"
+2020-06-12 21:20:06.936 +02:00 [Warning] Missing english translation for "N1040056"
+2020-06-12 21:20:06.937 +02:00 [Warning] Missing english translation for "N1040055"
+2020-06-12 21:20:06.946 +02:00 [Warning] Missing english translation for "N1051018"
+2020-06-12 21:20:06.948 +02:00 [Warning] Missing english translation for "N1051017"
+2020-06-12 21:20:06.953 +02:00 [Warning] Missing english translation for "N1050056"
+2020-06-12 21:20:06.956 +02:00 [Warning] Missing english translation for "N1050056"
+2020-06-12 21:20:06.957 +02:00 [Warning] Missing english translation for "N1050054"
+2020-06-12 21:20:06.965 +02:00 [Warning] Missing english translation for "N1061017"
+2020-06-12 21:20:06.973 +02:00 [Warning] Missing english translation for "N1060066"
+2020-06-12 21:20:06.978 +02:00 [Warning] Missing english translation for "N1060051"
+2020-06-12 21:20:06.985 +02:00 [Warning] Missing english translation for "1060000"
+2020-06-12 21:20:06.998 +02:00 [Warning] Missing english translation for "N2010018"
+2020-06-12 21:20:07.000 +02:00 [Warning] Missing english translation for "N2010019"
+2020-06-12 21:20:07.009 +02:00 [Warning] Missing weapon for item "2030005"
+2020-06-12 21:20:07.010 +02:00 [Warning] Missing english translation for "N2030005"
+2020-06-12 21:20:07.012 +02:00 [Warning] Missing weapon for item "2030006"
+2020-06-12 21:20:07.014 +02:00 [Warning] Missing english translation for "N2030006"
+2020-06-12 21:20:07.016 +02:00 [Warning] Missing weapon for item "2050002"
+2020-06-12 21:20:07.018 +02:00 [Warning] Missing weapon for item "2050003"
+2020-06-12 21:20:07.019 +02:00 [Warning] Missing english translation for "N2050003"
+2020-06-12 21:20:07.044 +02:00 [Warning] Missing english translation for "N4060005"
+2020-06-12 21:20:07.046 +02:00 [Warning] Missing english translation for "N4060006"
+2020-06-12 21:20:07.047 +02:00 [Warning] Missing english translation for "N4060007"
+2020-06-12 21:20:07.049 +02:00 [Warning] Missing english translation for "N4060008"
+2020-06-12 21:20:07.050 +02:00 [Warning] Missing english translation for "N4060009"
+2020-06-12 21:20:07.052 +02:00 [Warning] Missing english translation for "N4060010"
+2020-06-12 21:20:07.055 +02:00 [Warning] Missing english translation for "N4060011"
+2020-06-12 21:20:07.056 +02:00 [Warning] Missing english translation for "N4060012"
+2020-06-12 21:20:07.057 +02:00 [Warning] Missing english translation for "N4060013"
+2020-06-12 21:20:07.059 +02:00 [Warning] Missing english translation for "N4060014"
+2020-06-12 21:20:07.061 +02:00 [Warning] Missing english translation for "N4040002"
+2020-06-12 21:20:07.063 +02:00 [Warning] Missing english translation for "N4050009"
+2020-06-12 21:20:07.066 +02:00 [Warning] Missing english translation for "N4050010"
+2020-06-12 21:20:07.068 +02:00 [Warning] Missing english translation for "N4050015"
+2020-06-12 21:20:07.070 +02:00 [Warning] Missing english translation for "N4050016"
+2020-06-12 21:20:07.072 +02:00 [Warning] Missing english translation for "N4050021"
+2020-06-12 21:20:07.075 +02:00 [Warning] Missing english translation for "N4050022"
+2020-06-12 21:20:07.076 +02:00 [Warning] Missing english translation for "N4050023"
+2020-06-12 21:20:07.077 +02:00 [Warning] Missing english translation for "N4050024"
+2020-06-12 21:20:07.079 +02:00 [Warning] Missing english translation for "N4050025"
+2020-06-12 21:20:07.080 +02:00 [Warning] Missing english translation for "N4050026"
+2020-06-12 21:20:07.081 +02:00 [Warning] Missing english translation for "N4050027"
+2020-06-12 21:20:07.085 +02:00 [Warning] Missing english translation for "N4050028"
+2020-06-12 21:20:07.117 +02:00 [Information] Caching: DefaultItems
+2020-06-12 21:20:07.118 +02:00 [Debug] Caching...
+2020-06-12 21:20:07.140 +02:00 [Information] Caching: Shop
+2020-06-12 21:20:07.141 +02:00 [Debug] Caching...
+2020-06-12 21:20:07.247 +02:00 [Information] Caching: Experience
+2020-06-12 21:20:07.249 +02:00 [Debug] Caching...
+2020-06-12 21:20:07.264 +02:00 [Information] Caching: Maps
+2020-06-12 21:20:07.265 +02:00 [Debug] Caching...
+2020-06-12 21:20:07.301 +02:00 [Information] LoadMaps() called (104)
+2020-06-12 21:20:07.303 +02:00 [Information] Loading map 2, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 21:20:07.313 +02:00 [Information] Loading map 3, Resources/MapInfo/bginfo-Neden02.ini
+2020-06-12 21:20:07.315 +02:00 [Information] Loading map 4, Resources/MapInfo/bginfo-Neden03_death.ini
+2020-06-12 21:20:07.318 +02:00 [Information] Loading map 5, Resources/MapInfo/bginfo-city_highway_death.ini
+2020-06-12 21:20:07.321 +02:00 [Information] Loading map 6, Resources/MapInfo/bginfo-19days.ini
+2020-06-12 21:20:07.324 +02:00 [Information] Loading map 7, Resources/MapInfo/bginfo-blockbuster_death.ini
+2020-06-12 21:20:07.326 +02:00 [Information] Loading map 8, Resources/MapInfo/bginfo-galleon_dath.ini
+2020-06-12 21:20:07.327 +02:00 [Information] Loading map 9, Resources/MapInfo/bginfo-oldmoon.ini
+2020-06-12 21:20:07.329 +02:00 [Information] Loading map 10, Resources/MapInfo/bginfo-luna2.ini
+2020-06-12 21:20:07.331 +02:00 [Information] Loading map 11, Resources/MapInfo/bginfo-neoniac_death.ini
+2020-06-12 21:20:07.333 +02:00 [Information] Loading map 12, Resources/MapInfo/bginfo-Holiday.ini
+2020-06-12 21:20:07.336 +02:00 [Information] Loading map 13, Resources/MapInfo/bginfo-Square.ini
+2020-06-12 21:20:07.338 +02:00 [Information] Loading map 14, Resources/MapInfo/bginfo-Azit-EX.ini
+2020-06-12 21:20:07.340 +02:00 [Information] Loading map 15, Resources/MapInfo/bginfo-Azit.ini
+2020-06-12 21:20:07.342 +02:00 [Information] Loading map 16, Resources/MapInfo/bginfo-NedenJ.ini
+2020-06-12 21:20:07.344 +02:00 [Information] Loading map 17, Resources/MapInfo/bginfo-construction.ini
+2020-06-12 21:20:07.353 +02:00 [Information] Loading map 18, Resources/MapInfo/bginfo-spadeA.ini
+2020-06-12 21:20:07.354 +02:00 [Information] Loading map 19, Resources/MapInfo/bginfo-biolab.ini
+2020-06-12 21:20:07.356 +02:00 [Information] Loading map 20, Resources/MapInfo/bginfo-warpship.ini
+2020-06-12 21:20:07.358 +02:00 [Information] Loading map 21, Resources/MapInfo/bginfo-neo_arena.ini
+2020-06-12 21:20:07.361 +02:00 [Information] Loading map 22, Resources/MapInfo/bginfo-new_deathmatch.ini
+2020-06-12 21:20:07.362 +02:00 [Information] Loading map 23, Resources/MapInfo/bginfo-Neden01_G.ini
+2020-06-12 21:20:07.365 +02:00 [Information] Loading map 24, Resources/MapInfo/bginfo-Azit-EX_G.ini
+2020-06-12 21:20:07.366 +02:00 [Information] Loading map 25, Resources/MapInfo/bginfo-NedenJ.ini
+2020-06-12 21:20:07.369 +02:00 [Information] Loading map 31, Resources/MapInfo/bginfo-lc_anc.ini
+2020-06-12 21:20:07.371 +02:00 [Information] Loading map 32, Resources/MapInfo/bginfo-lc_sub.ini
+2020-06-12 21:20:07.372 +02:00 [Information] Loading map 33, Resources/MapInfo/bginfo-lc_practice.ini
+2020-06-12 21:20:07.374 +02:00 [Information] Loading map 34, Resources/MapInfo/bginfo-lc_rail.ini
+2020-06-12 21:20:07.375 +02:00 [Information] Loading map 35, Resources/MapInfo/bginfo-lc_shield.ini
+2020-06-12 21:20:07.377 +02:00 [Information] Loading map 36, Resources/MapInfo/bginfo-lc_countersword.ini
+2020-06-12 21:20:07.378 +02:00 [Information] Loading map 37, Resources/MapInfo/bginfo-lc_shock.ini
+2020-06-12 21:20:07.381 +02:00 [Information] Loading map 46, Resources/MapInfo/bginfo-wave_middle.ini
+2020-06-12 21:20:07.383 +02:00 [Information] Loading map 47, Resources/MapInfo/bginfo-wave_small.ini
+2020-06-12 21:20:07.385 +02:00 [Information] Loading map 48, Resources/MapInfo/bginfo-left4dead.ini
+2020-06-12 21:20:07.386 +02:00 [Information] Loading map 49, Resources/MapInfo/bginfo-acade2.ini
+2020-06-12 21:20:07.388 +02:00 [Information] Loading map 50, Resources/MapInfo/bginfo-conest.ini
+2020-06-12 21:20:07.391 +02:00 [Information] Loading map 51, Resources/MapInfo/bginfo-MS_city_highway.ini
+2020-06-12 21:20:07.392 +02:00 [Information] Loading map 52, Resources/MapInfo/bginfo-Ms_SStation.ini
+2020-06-12 21:20:07.394 +02:00 [Information] Loading map 53, Resources/MapInfo/bginfo-Ms_Neden01.ini
+2020-06-12 21:20:07.395 +02:00 [Information] Loading map 54, Resources/MapInfo/bginfo-Ms_SStation01.ini
+2020-06-12 21:20:07.396 +02:00 [Information] Loading map 55, Resources/MapInfo/bginfo-Ms_Tunnel.ini
+2020-06-12 21:20:07.398 +02:00 [Information] Loading map 61, Resources/MapInfo/bginfo-colosseum.ini
+2020-06-12 21:20:07.401 +02:00 [Information] Loading map 62, Resources/MapInfo/bginfo-Neden00.ini
+2020-06-12 21:20:07.403 +02:00 [Information] Loading map 63, Resources/MapInfo/bginfo-oldschool.ini
+2020-06-12 21:20:07.405 +02:00 [Information] Loading map 64, Resources/MapInfo/bginfo-city_highway.ini
+2020-06-12 21:20:07.428 +02:00 [Information] Loading map 65, Resources/MapInfo/bginfo-SStation01.ini
+2020-06-12 21:20:07.431 +02:00 [Information] Loading map 66, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 21:20:07.434 +02:00 [Information] Loading map 67, Resources/MapInfo/bginfo-Neden03.ini
+2020-06-12 21:20:07.443 +02:00 [Information] Loading map 68, Resources/MapInfo/bginfo-beginner.ini
+2020-06-12 21:20:07.445 +02:00 [Information] Loading map 69, Resources/MapInfo/bginfo-side3.ini
+2020-06-12 21:20:07.447 +02:00 [Information] Loading map 70, Resources/MapInfo/bginfo-hyperium.ini
+2020-06-12 21:20:07.449 +02:00 [Information] Loading map 71, Resources/MapInfo/bginfo-rustygarden.ini
+2020-06-12 21:20:07.451 +02:00 [Information] Loading map 72, Resources/MapInfo/bginfo-Station3.ini
+2020-06-12 21:20:07.453 +02:00 [Information] Loading map 73, Resources/MapInfo/bginfo-SStation02_G.ini
+2020-06-12 21:20:07.455 +02:00 [Information] Loading map 91, Resources/MapInfo/bginfo-lily_office.ini
+2020-06-12 21:20:07.457 +02:00 [Information] Loading map 92, Resources/MapInfo/bginfo-sixsense.ini
+2020-06-12 21:20:07.461 +02:00 [Information] Loading map 93, Resources/MapInfo/bginfo-19dayssl.ini
+2020-06-12 21:20:07.463 +02:00 [Information] Loading map 94, Resources/MapInfo/bginfo-slpve.ini
+2020-06-12 21:20:07.464 +02:00 [Information] Loading map 95, Resources/MapInfo/bginfo-slhouse.ini
+2020-06-12 21:20:07.467 +02:00 [Information] Loading map 96, Resources/MapInfo/bginfo-Nightmare_sl.ini
+2020-06-12 21:20:07.469 +02:00 [Information] Loading map 97, Resources/MapInfo/bginfo-grave.ini
+2020-06-12 21:20:07.471 +02:00 [Information] Loading map 111, Resources/MapInfo/bginfo-galleon_ffa.ini
+2020-06-12 21:20:07.472 +02:00 [Information] Loading map 112, Resources/MapInfo/bginfo-neoniac_ffa.ini
+2020-06-12 21:20:07.474 +02:00 [Information] Loading map 131, Resources/MapInfo/bginfo-captain_oldmoon.ini
+2020-06-12 21:20:07.476 +02:00 [Information] Loading map 132, Resources/MapInfo/bginfo-captain_Nightmare.ini
+2020-06-12 21:20:07.479 +02:00 [Information] Loading map 133, Resources/MapInfo/bginfo-captain_luna2.ini
+2020-06-12 21:20:07.480 +02:00 [Information] Loading map 134, Resources/MapInfo/bginfo-Azit-EX_CT.ini
+2020-06-12 21:20:07.482 +02:00 [Information] Loading map 151, Resources/MapInfo/bginfo-ironheart.ini
+2020-06-12 21:20:07.484 +02:00 [Information] Loading map 152, Resources/MapInfo/bginfo-skyline.ini
+2020-06-12 21:20:07.487 +02:00 [Information] Loading map 153, Resources/MapInfo/bginfo-bladecity.ini
+2020-06-12 21:20:07.489 +02:00 [Information] Loading map 154, Resources/MapInfo/bginfo-warpship.ini
+2020-06-12 21:20:07.497 +02:00 [Information] Loading map 155, Resources/MapInfo/bginfo-biolab.ini
+2020-06-12 21:20:07.499 +02:00 [Information] Loading map 156, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 21:20:07.501 +02:00 [Information] Loading map 157, Resources/MapInfo/bginfo-city_highway_death.ini
+2020-06-12 21:20:07.503 +02:00 [Information] Loading map 158, Resources/MapInfo/bginfo-bladecity_dm.ini
+2020-06-12 21:20:07.504 +02:00 [Warning] bginfo_path:"resources/mapinfo/bginfo-bladecity_dm.ini" not found
+2020-06-12 21:20:07.507 +02:00 [Information] Loading map 200, Resources/MapInfo/bginfo-wave_wondercode.ini
+2020-06-12 21:20:07.508 +02:00 [Information] Loading map 220, Resources/MapInfo/bginfo-photozone.ini
+2020-06-12 21:20:07.510 +02:00 [Information] Loading map 221, Resources/MapInfo/bginfo_weapon_test.ini
+2020-06-12 21:20:07.511 +02:00 [Information] Loading map 225, Resources/MapInfo/bginfo-alicehouse.ini
+2020-06-12 21:20:07.513 +02:00 [Information] Loading map 227, Resources/MapInfo/bginfo-seize1_mh.ini
+2020-06-12 21:20:07.515 +02:00 [Information] Loading map 228, Resources/MapInfo/bginfo-kstest07.ini
+2020-06-12 21:20:07.518 +02:00 [Information] Loading map 229, Resources/MapInfo/bginfo-kstest03sz.ini
+2020-06-12 21:20:07.520 +02:00 [Information] Loading map 231, Resources/MapInfo/bginfo-wonderland.ini
+2020-06-12 21:20:07.521 +02:00 [Information] Loading map 232, Resources/MapInfo/bginfo-MH_test_16P.ini
+2020-06-12 21:20:07.523 +02:00 [Information] Loading map 233, Resources/MapInfo/bginfo-kstest08.ini
+2020-06-12 21:20:07.524 +02:00 [Warning] Missing english translation for MAPNAME_233
+2020-06-12 21:20:07.525 +02:00 [Information] Loading map 234, Resources/MapInfo/bginfo-Holiday_PVP.ini
+2020-06-12 21:20:07.529 +02:00 [Information] Loading map 235, Resources/MapInfo/bginfo-neo_arena.ini
+2020-06-12 21:20:07.531 +02:00 [Information] Loading map 236, Resources/MapInfo/bginfo-jytest.ini
+2020-06-12 21:20:07.532 +02:00 [Warning] Missing english translation for MAPNAME_236
+2020-06-12 21:20:07.533 +02:00 [Information] Loading map 241, Resources/MapInfo/bginfo-BTC_SStation.ini
+2020-06-12 21:20:07.535 +02:00 [Information] Loading map 242, Resources/MapInfo/bginfo-BTC_Neden01.ini
+2020-06-12 21:20:07.538 +02:00 [Information] Loading map 249, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 21:20:07.541 +02:00 [Information] Loading map 250, Resources/MapInfo/bginfo-Square.ini
+2020-06-12 21:20:07.543 +02:00 [Information] Loading map 251, Resources/MapInfo/bginfo-BTC_Sstation.ini
+2020-06-12 21:20:07.544 +02:00 [Information] Loading map 252, Resources/MapInfo/bginfo-Azit-EX_CT.ini
+2020-06-12 21:20:07.547 +02:00 [Information] Loading map 253, Resources/MapInfo/bginfo-Neden01.ini
+2020-06-12 21:20:07.550 +02:00 [Information] Loading map 254, Resources/MapInfo/bginfo-SStation02.ini
+2020-06-12 21:20:07.553 +02:00 [Information] Loading map 255, Resources/MapInfo/bginfo-tuto_test.ini
+2020-06-12 21:20:07.555 +02:00 [Warning] Map 993 couldnt be added!
+2020-06-12 21:20:07.556 +02:00 [Warning] Map 994 couldnt be added!
+2020-06-12 21:20:07.558 +02:00 [Warning] Map 995 couldnt be added!
+2020-06-12 21:20:07.559 +02:00 [Warning] Map 996 couldnt be added!
+2020-06-12 21:20:07.561 +02:00 [Warning] Map 997 couldnt be added!
+2020-06-12 21:20:07.562 +02:00 [Warning] Map 998 couldnt be added!
+2020-06-12 21:20:07.564 +02:00 [Warning] Map 999 couldnt be added!
+2020-06-12 21:20:07.567 +02:00 [Information] Caching: GameTempos
+2020-06-12 21:20:07.569 +02:00 [Debug] Caching...
+2020-06-12 21:20:07.642 +02:00 [Information] Ready for connections!
+2020-06-12 21:20:07.712 +02:00 [Information] Connected to authserver on endpoint "127.0.0.1:27000"
+2020-06-12 21:21:07.717 +02:00 [Information] Saving players...
+2020-06-12 21:21:07.722 +02:00 [Information] Saving players completed
+2020-06-12 21:22:07.808 +02:00 [Information] Saving players...
+2020-06-12 21:22:07.810 +02:00 [Information] Saving players completed
+2020-06-12 21:23:07.917 +02:00 [Information] Saving players...
+2020-06-12 21:23:07.918 +02:00 [Information] Saving players completed
+2020-06-12 21:24:08.825 +02:00 [Information] Saving players...
+2020-06-12 21:24:08.827 +02:00 [Information] Saving players completed
+2020-06-12 21:25:08.888 +02:00 [Information] Saving players...
+2020-06-12 21:25:08.889 +02:00 [Information] Saving players completed
+2020-06-12 21:26:08.996 +02:00 [Information] Saving players...
+2020-06-12 21:26:08.997 +02:00 [Information] Saving players completed
+2020-06-12 21:27:09.059 +02:00 [Information] Saving players...
+2020-06-12 21:27:09.060 +02:00 [Information] Saving players completed
+2020-06-12 21:28:09.091 +02:00 [Information] Saving players...
+2020-06-12 21:28:09.092 +02:00 [Information] Saving players completed
+2020-06-12 21:29:09.141 +02:00 [Information] Saving players...
+2020-06-12 21:29:09.143 +02:00 [Information] Saving players completed
+2020-06-12 21:30:09.186 +02:00 [Information] Saving players...
+2020-06-12 21:30:09.187 +02:00 [Information] Saving players completed
+2020-06-12 21:31:09.280 +02:00 [Information] Saving players...
+2020-06-12 21:31:09.281 +02:00 [Information] Saving players completed
+2020-06-12 21:32:09.372 +02:00 [Information] Saving players...
+2020-06-12 21:32:09.375 +02:00 [Information] Saving players completed
+2020-06-12 21:33:09.404 +02:00 [Information] Saving players...
+2020-06-12 21:33:09.405 +02:00 [Information] Saving players completed
+2020-06-12 21:34:09.417 +02:00 [Information] Saving players...
+2020-06-12 21:34:09.419 +02:00 [Information] Saving players completed
+2020-06-12 21:35:09.511 +02:00 [Information] Saving players...
+2020-06-12 21:35:09.513 +02:00 [Information] Saving players completed
+2020-06-12 21:35:39.337 +02:00 [Information] Closing...
+2020-06-12 21:35:39.338 +02:00 [Information] Closing...
+2020-06-12 21:35:52.357 +02:00 [Warning] Lost connection to authserver. Trying to reconnect on next update.
+2020-06-12 21:36:08.439 +02:00 [Error] Failed to connect authserver on endpoint "127.0.0.1:27000". Retrying on next update.

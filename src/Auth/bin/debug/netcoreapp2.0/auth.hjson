@@ -1,0 +1,27 @@
+{
+  listener: 192.168.11.45:28002
+  max_connections: 100
+  auth_api:   
+  {
+    listener: 192.168.11.45:28001
+  }
+  api:
+  {
+    listener: 192.168.11.45:27000
+    serverlist_timeout: 30000
+  }
+  noob_mode: true
+  auto_register: true
+  database:
+  {
+    engine: MySQL
+    auth:
+    {
+      host: localhost
+      port: 3306
+      username: root
+      password: 
+      database: s4
+    }
+  }
+}

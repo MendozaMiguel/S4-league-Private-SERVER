@@ -1,0 +1,138 @@
+{
+  server_name: Miguel_S4
+  server_id: 1
+  server_ip: 127.0.0.1
+  listener: 127.0.0.1:28003
+  listener_chat: 127.0.0.1:28004
+  listener_relay: 127.0.0.1:28005
+  listener_relay_udp_ports: null
+  listener_threads: 1
+  worker_threads: 2
+  player_limit: 100
+  security_level: 0
+  auth_webapi:
+  {
+    endpoint: 127.0.0.1:27000
+    serverlist_update_interval: 25000
+  }
+  save_interval: 60000
+  noob_mode: false
+  database:
+  {
+    engine: MySQL
+    auth:
+    {
+      host: 127.0.0.1
+      port: 3306
+      username: root
+      password: Miguel93500
+      database: s4l
+    }
+    game:
+    {
+      host: 127.0.0.1
+      port: 3306
+      username: root
+      password: Miguel93500
+      database: s4l
+    }
+  }
+  game:
+  {
+    enable_tutorial: false
+    max_level: 100
+    start_level: 1
+    start_pen: 50000
+    start_ap: 50000
+    start_coins1: 0
+    start_coins2: 0
+    durability_loss_per_death: 0
+    durability_loss_per_minute: 0
+    nick_restrictions:
+    {
+      min_length: 4
+      max_length: 30
+      max_repeat: 3
+      allow_whitespace: false
+      only_ascii: true
+    }
+    exp_rates_touchdown:
+    {
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+    exp_rates_deathmatch:
+    {
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+    exp_rates_warfare:
+    {
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+    exp_rates_arena:
+    {
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+	exp_rates_siege:
+    {
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+    exp_rates_chaser:
+    {
+      exp_per_first_point: 5
+      exp_per_second_point: 3
+      exp_per_third_point: 2
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+    exp_rates_battleroyal:
+    {
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+    exp_rates_captain:
+    {
+      exp_per_first_point: 5
+      exp_per_second_point: 3
+      exp_per_third_point: 2
+      score_factor: 0.7
+      first_place_bonus: 50
+      second_place_bonus: 30
+      third_place_bonus: 10
+      player_count_factor: 0.06
+      exp_per_min: 20
+    }
+  }
+}

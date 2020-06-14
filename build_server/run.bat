@@ -1,0 +1,1 @@
+start dotnet exec ".\server\Auth.dll"
